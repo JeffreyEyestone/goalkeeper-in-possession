@@ -1,0 +1,12 @@
+{
+  "repository": "statsbomb/open-data",
+  "revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "base_url": "https://raw.githubusercontent.com/statsbomb/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data",
+  "manifests": {
+    "matches_WC2022.json": "5b3e191a5f13defe1d3cffb4a43249829fb2afd045c01e85010f1872de0db764",
+    "matches_WC2018.json": "50097e0aaa13a9610e54dcad4aeec8c90f47821ecd6270b1c81d239119ef850e",
+    "matches_WSL2021.json": "ae971b33fb5e47100099f4957b26c239d18522c95586dbdef765cdd820a46bf4",
+    "matches_PL1516.json": "bf5844fe222a15cd568061129a8ef3c19ba70be54613eb9237285d9486936708",
+    "matches_T2024.json": "f5d6fadcca59673a5311d9a9a927d6007e41b908be999ab3b15fe2383b3389d4"
+  }
+}

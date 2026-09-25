@@ -1,0 +1,2090 @@
+[
+  {
+    "cohort": "WC2018",
+    "match_id": 7525,
+    "expected_label": 0,
+    "expected_state_id": "a1c1d54c-9f1e-464f-bd46-159a5c63fef1",
+    "events": [
+      {
+        "id": "e16fa883-f58d-4e8e-af42-d9d18053d459",
+        "index": 122,
+        "period": 1,
+        "timestamp": "00:02:59.333",
+        "minute": 2,
+        "second": 59,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 9,
+        "possession_team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "play_pattern": {
+          "id": 2,
+          "name": "From Corner"
+        },
+        "team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "player": {
+          "id": 5172,
+          "name": "Igor Akinfeev"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          29.0,
+          58.0
+        ],
+        "duration": 3.92,
+        "related_events": [
+          "54e02942-8d69-4143-be45-bd78cde9ac03"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 5177,
+            "name": "Aleksandr Golovin"
+          },
+          "length": 80.454956,
+          "angle": -0.56386936,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            97.0,
+            15.0
+          ],
+          "switch": true,
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "outcome": {
+            "id": 77,
+            "name": "Unknown"
+          }
+        }
+      },
+      {
+        "id": "54e02942-8d69-4143-be45-bd78cde9ac03",
+        "index": 123,
+        "period": 1,
+        "timestamp": "00:03:03.253",
+        "minute": 3,
+        "second": 3,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 9,
+        "possession_team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "play_pattern": {
+          "id": 2,
+          "name": "From Corner"
+        },
+        "team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "player": {
+          "id": 5177,
+          "name": "Aleksandr Golovin"
+        },
+        "position": {
+          "id": 16,
+          "name": "Left Midfield"
+        },
+        "location": [
+          100.0,
+          21.0
+        ],
+        "related_events": [
+          "e16fa883-f58d-4e8e-af42-d9d18053d459"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "b53a6c2c-4949-4711-9877-3a4902274f78",
+        "index": 124,
+        "period": 1,
+        "timestamp": "00:03:03.440",
+        "minute": 3,
+        "second": 3,
+        "type": {
+          "id": 22,
+          "name": "Foul Committed"
+        },
+        "possession": 9,
+        "possession_team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "play_pattern": {
+          "id": 2,
+          "name": "From Corner"
+        },
+        "team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "player": {
+          "id": 5194,
+          "name": "Fyodor Smolov"
+        },
+        "position": {
+          "id": 23,
+          "name": "Center Forward"
+        },
+        "location": [
+          99.0,
+          21.0
+        ],
+        "related_events": [
+          "772b7a0b-6e49-4631-bc2e-03757ebf1c39"
+        ]
+      },
+      {
+        "id": "772b7a0b-6e49-4631-bc2e-03757ebf1c39",
+        "index": 125,
+        "period": 1,
+        "timestamp": "00:03:03.440",
+        "minute": 3,
+        "second": 3,
+        "type": {
+          "id": 21,
+          "name": "Foul Won"
+        },
+        "possession": 9,
+        "possession_team": {
+          "id": 796,
+          "name": "Russia"
+        },
+        "play_pattern": {
+          "id": 2,
+          "name": "From Corner"
+        },
+        "team": {
+          "id": 799,
+          "name": "Saudi Arabia"
+        },
+        "player": {
+          "id": 5191,
+          "name": "Mohammed Al Burayk"
+        },
+        "position": {
+          "id": 2,
+          "name": "Right Back"
+        },
+        "location": [
+          22.0,
+          60.0
+        ],
+        "under_pressure": true,
+        "related_events": [
+          "b53a6c2c-4949-4711-9877-3a4902274f78"
+        ],
+        "foul_won": {
+          "defensive": true
+        }
+      },
+      {
+        "id": "a1c1d54c-9f1e-464f-bd46-159a5c63fef1",
+        "index": 126,
+        "period": 1,
+        "timestamp": "00:03:28.440",
+        "minute": 3,
+        "second": 28,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 10,
+        "possession_team": {
+          "id": 799,
+          "name": "Saudi Arabia"
+        },
+        "play_pattern": {
+          "id": 3,
+          "name": "From Free Kick"
+        },
+        "team": {
+          "id": 799,
+          "name": "Saudi Arabia"
+        },
+        "player": {
+          "id": 5189,
+          "name": "Abdullah Ibrahim Al Maiouf"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          23.0,
+          57.0
+        ],
+        "duration": 3.68,
+        "related_events": [
+          "e0585830-7e4c-4ae5-baab-d09846ba984f"
+        ],
+        "pass": {
+          "length": 74.953316,
+          "angle": -0.7853982,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            76.0,
+            4.0
+          ],
+          "switch": true,
+          "type": {
+            "id": 62,
+            "name": "Free Kick"
+          },
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "WC2018",
+    "match_id": 7536,
+    "expected_label": 1,
+    "expected_state_id": "39fffd98-fd68-4e43-99b6-6865301a822c",
+    "events": [
+      {
+        "id": "bef998e8-a58f-4552-98ea-85065dda7681",
+        "index": 807,
+        "period": 1,
+        "timestamp": "00:16:56.733",
+        "minute": 16,
+        "second": 56,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 37,
+        "possession_team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "player": {
+          "id": 3509,
+          "name": "Thibaut Courtois"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          4.0,
+          58.0
+        ],
+        "duration": 3.64,
+        "related_events": [
+          "9da2115e-5b14-4b44-b16d-38763813b9f2"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 3176,
+            "name": "Thomas Meunier"
+          },
+          "length": 45.39824,
+          "angle": 0.13255154,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            49.0,
+            64.0
+          ],
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "outcome": {
+            "id": 77,
+            "name": "Unknown"
+          }
+        }
+      },
+      {
+        "id": "9da2115e-5b14-4b44-b16d-38763813b9f2",
+        "index": 808,
+        "period": 1,
+        "timestamp": "00:17:00.373",
+        "minute": 17,
+        "second": 0,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 37,
+        "possession_team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "player": {
+          "id": 3176,
+          "name": "Thomas Meunier"
+        },
+        "position": {
+          "id": 7,
+          "name": "Right Wing Back"
+        },
+        "location": [
+          48.0,
+          62.0
+        ],
+        "related_events": [
+          "bef998e8-a58f-4552-98ea-85065dda7681"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "ed037b18-b7b4-4094-bcca-abd2590133dc",
+        "index": 809,
+        "period": 1,
+        "timestamp": "00:17:00.613",
+        "minute": 17,
+        "second": 0,
+        "type": {
+          "id": 22,
+          "name": "Foul Committed"
+        },
+        "possession": 37,
+        "possession_team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 798,
+          "name": "Panama"
+        },
+        "player": {
+          "id": 5634,
+          "name": "Erick Javier Davis Grajales"
+        },
+        "position": {
+          "id": 6,
+          "name": "Left Back"
+        },
+        "location": [
+          71.0,
+          18.0
+        ],
+        "related_events": [
+          "35c3f9ae-8007-4a18-88de-861271a5db0c"
+        ]
+      },
+      {
+        "id": "35c3f9ae-8007-4a18-88de-861271a5db0c",
+        "index": 810,
+        "period": 1,
+        "timestamp": "00:17:00.613",
+        "minute": 17,
+        "second": 0,
+        "type": {
+          "id": 21,
+          "name": "Foul Won"
+        },
+        "possession": 37,
+        "possession_team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "player": {
+          "id": 3176,
+          "name": "Thomas Meunier"
+        },
+        "position": {
+          "id": 7,
+          "name": "Right Wing Back"
+        },
+        "location": [
+          50.0,
+          63.0
+        ],
+        "under_pressure": true,
+        "related_events": [
+          "ed037b18-b7b4-4094-bcca-abd2590133dc"
+        ],
+        "foul_won": {
+          "defensive": true
+        }
+      },
+      {
+        "id": "39fffd98-fd68-4e43-99b6-6865301a822c",
+        "index": 811,
+        "period": 1,
+        "timestamp": "00:17:13.000",
+        "minute": 17,
+        "second": 13,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 38,
+        "possession_team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "play_pattern": {
+          "id": 3,
+          "name": "From Free Kick"
+        },
+        "team": {
+          "id": 782,
+          "name": "Belgium"
+        },
+        "player": {
+          "id": 5642,
+          "name": "Axel Witsel"
+        },
+        "position": {
+          "id": 15,
+          "name": "Left Center Midfield"
+        },
+        "location": [
+          46.0,
+          61.0
+        ],
+        "duration": 1.213,
+        "related_events": [
+          "794d5646-9cd0-452e-9b72-3cb3c0fc24a3"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 5639,
+            "name": "Anga Dedryck Boyata"
+          },
+          "length": 23.259407,
+          "angle": -2.0152156,
+          "height": {
+            "id": 1,
+            "name": "Ground Pass"
+          },
+          "end_location": [
+            36.0,
+            40.0
+          ],
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "type": {
+            "id": 62,
+            "name": "Free Kick"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "WC2022",
+    "match_id": 3857254,
+    "expected_label": 0,
+    "expected_state_id": "16484177-6a8e-4ff5-99af-8690e22bc0db",
+    "events": [
+      {
+        "id": "28bacd4c-70a7-4b43-b83e-158fc8098eef",
+        "index": 443,
+        "period": 1,
+        "timestamp": "00:09:21.603",
+        "minute": 9,
+        "second": 21,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 20,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 776,
+          "name": "Denmark"
+        },
+        "player": {
+          "id": 3815,
+          "name": "Kasper Schmeichel"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          11.3,
+          29.0
+        ],
+        "duration": 4.223809,
+        "related_events": [
+          "22049cea-0d92-41df-9d67-7e9139859ee7"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 6302,
+            "name": "Kasper Dolberg"
+          },
+          "length": 82.71548,
+          "angle": 0.66284573,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            76.5,
+            79.9
+          ],
+          "switch": true,
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "outcome": {
+            "id": 75,
+            "name": "Out"
+          }
+        }
+      },
+      {
+        "id": "22049cea-0d92-41df-9d67-7e9139859ee7",
+        "index": 444,
+        "period": 1,
+        "timestamp": "00:09:25.827",
+        "minute": 9,
+        "second": 25,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 20,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 776,
+          "name": "Denmark"
+        },
+        "player": {
+          "id": 6302,
+          "name": "Kasper Dolberg"
+        },
+        "position": {
+          "id": 24,
+          "name": "Left Center Forward"
+        },
+        "location": [
+          77.2,
+          72.0
+        ],
+        "related_events": [
+          "28bacd4c-70a7-4b43-b83e-158fc8098eef"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "16484177-6a8e-4ff5-99af-8690e22bc0db",
+        "index": 445,
+        "period": 1,
+        "timestamp": "00:09:38.571",
+        "minute": 9,
+        "second": 38,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 21,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "player": {
+          "id": 30681,
+          "name": "Ali Abdi"
+        },
+        "position": {
+          "id": 8,
+          "name": "Left Wing Back"
+        },
+        "location": [
+          41.0,
+          0.1
+        ],
+        "duration": 1.898885,
+        "related_events": [
+          "df2e6e84-1ed3-46f8-8040-676a41037f77"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 32450,
+            "name": "Montassar Omar Talbi"
+          },
+          "length": 21.222864,
+          "angle": 2.8004704,
+          "height": {
+            "id": 2,
+            "name": "Low Pass"
+          },
+          "end_location": [
+            21.0,
+            7.2
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "WC2022",
+    "match_id": 3857254,
+    "expected_label": 1,
+    "expected_state_id": "e87feb13-4946-4f16-8d9e-2cd535798926",
+    "events": [
+      {
+        "id": "9900655f-6e5d-406c-b82d-9932ea508ab2",
+        "index": 1074,
+        "period": 1,
+        "timestamp": "00:27:20.610",
+        "minute": 27,
+        "second": 20,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 52,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "player": {
+          "id": 105943,
+          "name": "Aymen Dahmen"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          24.8,
+          63.7
+        ],
+        "duration": 3.869908,
+        "related_events": [
+          "6c636f8c-e6c6-43ac-a737-3883c893b683",
+          "a1368cf8-4492-45e2-938c-c16859900eb3"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 16352,
+            "name": "Issam Jebali"
+          },
+          "length": 56.964024,
+          "angle": -0.047416102,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            81.7,
+            61.0
+          ],
+          "body_part": {
+            "id": 68,
+            "name": "Drop Kick"
+          },
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "a1368cf8-4492-45e2-938c-c16859900eb3",
+        "index": 1075,
+        "period": 1,
+        "timestamp": "00:27:24.480",
+        "minute": 27,
+        "second": 24,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 52,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "player": {
+          "id": 16352,
+          "name": "Issam Jebali"
+        },
+        "position": {
+          "id": 23,
+          "name": "Center Forward"
+        },
+        "location": [
+          80.9,
+          58.0
+        ],
+        "related_events": [
+          "9900655f-6e5d-406c-b82d-9932ea508ab2"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "fdc46799-82f1-47c8-993c-7e602df8aa6e",
+        "index": 1076,
+        "period": 1,
+        "timestamp": "00:27:24.480",
+        "minute": 27,
+        "second": 24,
+        "type": {
+          "id": 4,
+          "name": "Duel"
+        },
+        "possession": 52,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "player": {
+          "id": 16352,
+          "name": "Issam Jebali"
+        },
+        "position": {
+          "id": 23,
+          "name": "Center Forward"
+        },
+        "location": [
+          81.7,
+          61.0
+        ],
+        "duration": 0.0,
+        "under_pressure": true,
+        "related_events": [
+          "6c636f8c-e6c6-43ac-a737-3883c893b683"
+        ],
+        "duel": {
+          "type": {
+            "id": 10,
+            "name": "Aerial Lost"
+          }
+        }
+      },
+      {
+        "id": "6c636f8c-e6c6-43ac-a737-3883c893b683",
+        "index": 1077,
+        "period": 1,
+        "timestamp": "00:27:24.480",
+        "minute": 27,
+        "second": 24,
+        "type": {
+          "id": 9,
+          "name": "Clearance"
+        },
+        "possession": 52,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "out": true,
+        "team": {
+          "id": 776,
+          "name": "Denmark"
+        },
+        "player": {
+          "id": 5534,
+          "name": "Simon Thorup Kj\u00e6r"
+        },
+        "position": {
+          "id": 4,
+          "name": "Center Back"
+        },
+        "location": [
+          38.4,
+          19.1
+        ],
+        "duration": 0.0,
+        "under_pressure": true,
+        "related_events": [
+          "fdc46799-82f1-47c8-993c-7e602df8aa6e",
+          "9900655f-6e5d-406c-b82d-9932ea508ab2"
+        ],
+        "clearance": {
+          "aerial_won": true,
+          "head": true,
+          "body_part": {
+            "id": 37,
+            "name": "Head"
+          }
+        }
+      },
+      {
+        "id": "e87feb13-4946-4f16-8d9e-2cd535798926",
+        "index": 1078,
+        "period": 1,
+        "timestamp": "00:27:51.618",
+        "minute": 27,
+        "second": 51,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 53,
+        "possession_team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 777,
+          "name": "Tunisia"
+        },
+        "player": {
+          "id": 9236,
+          "name": "Mohamed Dr\u00e4ger"
+        },
+        "position": {
+          "id": 7,
+          "name": "Right Wing Back"
+        },
+        "location": [
+          75.9,
+          80.0
+        ],
+        "duration": 2.006563,
+        "related_events": [
+          "e2b191df-e844-45a6-9b2d-1af0c2e8fc76"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 5651,
+            "name": "Yassine Meriah"
+          },
+          "length": 28.03159,
+          "angle": -2.965887,
+          "height": {
+            "id": 2,
+            "name": "Low Pass"
+          },
+          "end_location": [
+            48.3,
+            75.1
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "PL1516",
+    "match_id": 3753972,
+    "expected_label": 0,
+    "expected_state_id": "6ff55525-1df0-4877-9285-645edd023b3e",
+    "events": [
+      {
+        "id": "bdb71432-2b59-4c9f-bb3b-11f9e5d5ee87",
+        "index": 826,
+        "period": 1,
+        "timestamp": "00:19:36.255",
+        "minute": 19,
+        "second": 36,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 44,
+        "possession_team": {
+          "id": 28,
+          "name": "AFC Bournemouth"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 28,
+          "name": "AFC Bournemouth"
+        },
+        "player": {
+          "id": 24888,
+          "name": "Adam Federici"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          17.5,
+          40.3
+        ],
+        "duration": 3.591001,
+        "under_pressure": true,
+        "related_events": [
+          "cf1f5177-c168-4bf2-b423-7ae215538473",
+          "e9512201-78de-43db-ae0b-27094e66e6ef"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 3346,
+            "name": "Joshua King"
+          },
+          "length": 58.831963,
+          "angle": -0.3002485,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            73.7,
+            22.9
+          ],
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "outcome": {
+            "id": 76,
+            "name": "Pass Offside"
+          }
+        }
+      },
+      {
+        "id": "e9512201-78de-43db-ae0b-27094e66e6ef",
+        "index": 827,
+        "period": 1,
+        "timestamp": "00:19:39.846",
+        "minute": 19,
+        "second": 39,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 44,
+        "possession_team": {
+          "id": 28,
+          "name": "AFC Bournemouth"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 28,
+          "name": "AFC Bournemouth"
+        },
+        "player": {
+          "id": 3346,
+          "name": "Joshua King"
+        },
+        "position": {
+          "id": 23,
+          "name": "Center Forward"
+        },
+        "location": [
+          73.7,
+          22.9
+        ],
+        "related_events": [
+          "bdb71432-2b59-4c9f-bb3b-11f9e5d5ee87"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "6ff55525-1df0-4877-9285-645edd023b3e",
+        "index": 828,
+        "period": 1,
+        "timestamp": "00:19:50.547",
+        "minute": 19,
+        "second": 50,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 45,
+        "possession_team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "play_pattern": {
+          "id": 3,
+          "name": "From Free Kick"
+        },
+        "team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "player": {
+          "id": 4726,
+          "name": "Kyle Bartley"
+        },
+        "position": {
+          "id": 3,
+          "name": "Right Center Back"
+        },
+        "location": [
+          47.0,
+          56.7
+        ],
+        "duration": 3.001614,
+        "related_events": [
+          "0cb95b53-3212-4fab-8730-abc1f9ca8c04",
+          "a2df6eb0-d34c-48da-831f-90069487f017"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 3347,
+            "name": "Andr\u00e9 Ayew Pel\u00e9"
+          },
+          "length": 57.617794,
+          "angle": -0.48771128,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            97.9,
+            29.7
+          ],
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "type": {
+            "id": 62,
+            "name": "Free Kick"
+          },
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "PL1516",
+    "match_id": 3753972,
+    "expected_label": 1,
+    "expected_state_id": "8f0f392e-f717-47ad-b93d-5b2302fb6070",
+    "events": [
+      {
+        "id": "5d60e4e7-182f-4bdf-875f-9a7adc076e9a",
+        "index": 2114,
+        "period": 2,
+        "timestamp": "00:07:08.685",
+        "minute": 52,
+        "second": 8,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 108,
+        "possession_team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "play_pattern": {
+          "id": 8,
+          "name": "From Keeper"
+        },
+        "team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "player": {
+          "id": 3262,
+          "name": "\u0141ukasz Fabia\u0144ski"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          13.8,
+          45.0
+        ],
+        "duration": 3.401171,
+        "related_events": [
+          "c9824ccc-9ea4-49fd-98d6-67e9641512f8",
+          "e28b18a4-f5fa-4994-87be-bcc87f1996f2"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 9627,
+            "name": "Neil Taylor"
+          },
+          "length": 51.752586,
+          "angle": -0.8743262,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            47.0,
+            5.3
+          ],
+          "body_part": {
+            "id": 68,
+            "name": "Drop Kick"
+          },
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "e28b18a4-f5fa-4994-87be-bcc87f1996f2",
+        "index": 2115,
+        "period": 2,
+        "timestamp": "00:07:12.086",
+        "minute": 52,
+        "second": 12,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 108,
+        "possession_team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "play_pattern": {
+          "id": 8,
+          "name": "From Keeper"
+        },
+        "team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "player": {
+          "id": 9627,
+          "name": "Neil Taylor"
+        },
+        "position": {
+          "id": 6,
+          "name": "Left Back"
+        },
+        "location": [
+          43.3,
+          6.7
+        ],
+        "related_events": [
+          "5d60e4e7-182f-4bdf-875f-9a7adc076e9a"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "c9824ccc-9ea4-49fd-98d6-67e9641512f8",
+        "index": 2116,
+        "period": 2,
+        "timestamp": "00:07:12.086",
+        "minute": 52,
+        "second": 12,
+        "type": {
+          "id": 9,
+          "name": "Clearance"
+        },
+        "possession": 108,
+        "possession_team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "play_pattern": {
+          "id": 8,
+          "name": "From Keeper"
+        },
+        "off_camera": true,
+        "out": true,
+        "team": {
+          "id": 28,
+          "name": "AFC Bournemouth"
+        },
+        "player": {
+          "id": 3049,
+          "name": "Matt Ritchie"
+        },
+        "position": {
+          "id": 12,
+          "name": "Right Midfield"
+        },
+        "location": [
+          73.1,
+          74.8
+        ],
+        "duration": 0.0,
+        "under_pressure": true,
+        "related_events": [
+          "5d60e4e7-182f-4bdf-875f-9a7adc076e9a"
+        ],
+        "clearance": {
+          "body_part": {
+            "id": 37,
+            "name": "Head"
+          },
+          "head": true
+        }
+      },
+      {
+        "id": "8f0f392e-f717-47ad-b93d-5b2302fb6070",
+        "index": 2117,
+        "period": 2,
+        "timestamp": "00:07:29.703",
+        "minute": 52,
+        "second": 29,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 109,
+        "possession_team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 26,
+          "name": "Swansea City"
+        },
+        "player": {
+          "id": 9627,
+          "name": "Neil Taylor"
+        },
+        "position": {
+          "id": 6,
+          "name": "Left Back"
+        },
+        "location": [
+          46.7,
+          0.1
+        ],
+        "duration": 0.917795,
+        "related_events": [
+          "b05b2173-9be9-4a43-92b3-b7c3b631a37d"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 3347,
+            "name": "Andr\u00e9 Ayew Pel\u00e9"
+          },
+          "length": 9.404786,
+          "angle": 0.9591993,
+          "height": {
+            "id": 2,
+            "name": "Low Pass"
+          },
+          "end_location": [
+            52.1,
+            7.8
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "WSL2021",
+    "match_id": 3764230,
+    "expected_label": 0,
+    "expected_state_id": "b9027415-2dee-4c0c-931b-c3b1e002600e",
+    "events": [
+      {
+        "id": "aa2da1fc-5aef-4b98-99ad-11645e862ca8",
+        "index": 806,
+        "period": 1,
+        "timestamp": "00:21:06.690",
+        "minute": 21,
+        "second": 6,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 58,
+        "possession_team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "play_pattern": {
+          "id": 8,
+          "name": "From Keeper"
+        },
+        "team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "player": {
+          "id": 18158,
+          "name": "Rebecca Leigh Spencer"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          17.5,
+          52.9
+        ],
+        "duration": 5.288287,
+        "pass": {
+          "length": 63.38533,
+          "angle": 0.4417739,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            74.8,
+            80.0
+          ],
+          "body_part": {
+            "id": 68,
+            "name": "Drop Kick"
+          },
+          "outcome": {
+            "id": 75,
+            "name": "Out"
+          }
+        }
+      },
+      {
+        "id": "b9027415-2dee-4c0c-931b-c3b1e002600e",
+        "index": 807,
+        "period": 1,
+        "timestamp": "00:21:22.803",
+        "minute": 21,
+        "second": 22,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 59,
+        "possession_team": {
+          "id": 972,
+          "name": "West Ham United LFC"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 972,
+          "name": "West Ham United LFC"
+        },
+        "player": {
+          "id": 15724,
+          "name": "Mayumi Pacheco"
+        },
+        "position": {
+          "id": 6,
+          "name": "Left Back"
+        },
+        "location": [
+          49.3,
+          0.1
+        ],
+        "duration": 0.9689,
+        "related_events": [
+          "7d9f48c8-4409-410c-af79-78debe5882a9"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 24403,
+            "name": "Katerina Svitkov\u00e1"
+          },
+          "length": 11.627554,
+          "angle": 1.1071488,
+          "height": {
+            "id": 2,
+            "name": "Low Pass"
+          },
+          "end_location": [
+            54.5,
+            10.5
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "WSL2021",
+    "match_id": 3764230,
+    "expected_label": 1,
+    "expected_state_id": "d24f7deb-8dbd-4f8f-b5a0-1eb27d6da6b9",
+    "events": [
+      {
+        "id": "956baea6-d417-4aba-9485-6e5654459b09",
+        "index": 508,
+        "period": 1,
+        "timestamp": "00:13:01.520",
+        "minute": 13,
+        "second": 1,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 40,
+        "possession_team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "player": {
+          "id": 18158,
+          "name": "Rebecca Leigh Spencer"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          14.7,
+          43.7
+        ],
+        "duration": 3.661689,
+        "under_pressure": true,
+        "related_events": [
+          "c190e65e-c7ed-40e4-9632-4cd5cbdfb063"
+        ],
+        "pass": {
+          "length": 59.611156,
+          "angle": -0.79370165,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            56.5,
+            1.2
+          ],
+          "switch": true,
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "outcome": {
+            "id": 75,
+            "name": "Out"
+          }
+        }
+      },
+      {
+        "id": "b9a03731-c0f3-4fc3-9df0-3eb8fd20390d",
+        "index": 509,
+        "period": 1,
+        "timestamp": "00:13:01.850",
+        "minute": 13,
+        "second": 1,
+        "type": {
+          "id": 6,
+          "name": "Block"
+        },
+        "possession": 40,
+        "possession_team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "play_pattern": {
+          "id": 1,
+          "name": "Regular Play"
+        },
+        "out": true,
+        "team": {
+          "id": 972,
+          "name": "West Ham United LFC"
+        },
+        "player": {
+          "id": 8297,
+          "name": "Adriana Kristina Leon"
+        },
+        "position": {
+          "id": 21,
+          "name": "Left Wing"
+        },
+        "location": [
+          103.2,
+          37.5
+        ],
+        "duration": 0.0,
+        "counterpress": true
+      },
+      {
+        "id": "d24f7deb-8dbd-4f8f-b5a0-1eb27d6da6b9",
+        "index": 510,
+        "period": 1,
+        "timestamp": "00:13:20.837",
+        "minute": 13,
+        "second": 20,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 41,
+        "possession_team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 749,
+          "name": "Tottenham Hotspur Women"
+        },
+        "player": {
+          "id": 15572,
+          "name": "Siri Worm"
+        },
+        "position": {
+          "id": 6,
+          "name": "Left Back"
+        },
+        "location": [
+          64.2,
+          0.1
+        ],
+        "duration": 1.398554,
+        "related_events": [
+          "fb69a269-2a21-4df5-990c-ff46b8c2f708"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 31702,
+            "name": "Rianna Dean"
+          },
+          "length": 23.194826,
+          "angle": 0.7732037,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            80.8,
+            16.3
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "T2024",
+    "match_id": 3930158,
+    "expected_label": 0,
+    "expected_state_id": "5f692b38-6333-4720-ba52-d6c7965defae",
+    "events": [
+      {
+        "id": "195d184c-8408-461c-822b-69997dbdda9a",
+        "index": 2821,
+        "period": 2,
+        "timestamp": "00:32:08.023",
+        "minute": 77,
+        "second": 8,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 116,
+        "possession_team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "play_pattern": {
+          "id": 3,
+          "name": "From Free Kick"
+        },
+        "team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "player": {
+          "id": 22379,
+          "name": "Angus Gunn"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          15.9,
+          40.5
+        ],
+        "duration": 6.001193,
+        "related_events": [
+          "b6368bb6-e9df-450c-a463-a9e3069f4a9f"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 12510,
+            "name": "Ryan Christie"
+          },
+          "length": 85.4745,
+          "angle": 0.4803912,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            91.7,
+            80.0
+          ],
+          "body_part": {
+            "id": 40,
+            "name": "Right Foot"
+          },
+          "type": {
+            "id": 62,
+            "name": "Free Kick"
+          },
+          "outcome": {
+            "id": 75,
+            "name": "Out"
+          }
+        }
+      },
+      {
+        "id": "b6368bb6-e9df-450c-a463-a9e3069f4a9f",
+        "index": 2822,
+        "period": 2,
+        "timestamp": "00:32:14.024",
+        "minute": 77,
+        "second": 14,
+        "type": {
+          "id": 42,
+          "name": "Ball Receipt*"
+        },
+        "possession": 116,
+        "possession_team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "play_pattern": {
+          "id": 3,
+          "name": "From Free Kick"
+        },
+        "team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "player": {
+          "id": 12510,
+          "name": "Ryan Christie"
+        },
+        "position": {
+          "id": 23,
+          "name": "Center Forward"
+        },
+        "location": [
+          87.8,
+          78.5
+        ],
+        "related_events": [
+          "195d184c-8408-461c-822b-69997dbdda9a"
+        ],
+        "ball_receipt": {
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          }
+        }
+      },
+      {
+        "id": "5f692b38-6333-4720-ba52-d6c7965defae",
+        "index": 2823,
+        "period": 2,
+        "timestamp": "00:32:27.338",
+        "minute": 77,
+        "second": 27,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 117,
+        "possession_team": {
+          "id": 770,
+          "name": "Germany"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 770,
+          "name": "Germany"
+        },
+        "player": {
+          "id": 12407,
+          "name": "Maximilian Mittelst\u00e4dt"
+        },
+        "position": {
+          "id": 6,
+          "name": "Left Back"
+        },
+        "location": [
+          31.1,
+          0.1
+        ],
+        "duration": 1.621886,
+        "related_events": [
+          "c8c7d503-611f-4c87-8990-437c14478a5e"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 8221,
+            "name": "Jonathan Tah"
+          },
+          "length": 14.217243,
+          "angle": 2.6023793,
+          "height": {
+            "id": 2,
+            "name": "Low Pass"
+          },
+          "end_location": [
+            18.9,
+            7.4
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "cohort": "T2024",
+    "match_id": 3930158,
+    "expected_label": 1,
+    "expected_state_id": "7524b042-3bb0-4aa6-8937-5d824c8df98c",
+    "events": [
+      {
+        "id": "34f2a9b6-5741-424f-8b7b-738c837846d3",
+        "index": 1077,
+        "period": 1,
+        "timestamp": "00:27:33.717",
+        "minute": 27,
+        "second": 33,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 39,
+        "possession_team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "play_pattern": {
+          "id": 8,
+          "name": "From Keeper"
+        },
+        "off_camera": true,
+        "team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "player": {
+          "id": 22379,
+          "name": "Angus Gunn"
+        },
+        "position": {
+          "id": 1,
+          "name": "Goalkeeper"
+        },
+        "location": [
+          15.3,
+          41.7
+        ],
+        "duration": 4.857759,
+        "related_events": [
+          "7ae281b3-fd64-47e7-a1ac-07ba6f9ed3af"
+        ],
+        "pass": {
+          "length": 85.17987,
+          "angle": -0.41059545,
+          "height": {
+            "id": 3,
+            "name": "High Pass"
+          },
+          "end_location": [
+            93.4,
+            7.7
+          ],
+          "outcome": {
+            "id": 9,
+            "name": "Incomplete"
+          },
+          "body_part": {
+            "id": 68,
+            "name": "Drop Kick"
+          }
+        }
+      },
+      {
+        "id": "7ae281b3-fd64-47e7-a1ac-07ba6f9ed3af",
+        "index": 1078,
+        "period": 1,
+        "timestamp": "00:27:38.575",
+        "minute": 27,
+        "second": 38,
+        "type": {
+          "id": 9,
+          "name": "Clearance"
+        },
+        "possession": 39,
+        "possession_team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "play_pattern": {
+          "id": 8,
+          "name": "From Keeper"
+        },
+        "off_camera": true,
+        "out": true,
+        "team": {
+          "id": 770,
+          "name": "Germany"
+        },
+        "player": {
+          "id": 3167,
+          "name": "Antonio R\u00fcdiger"
+        },
+        "position": {
+          "id": 3,
+          "name": "Right Center Back"
+        },
+        "location": [
+          26.7,
+          72.4
+        ],
+        "duration": 0.0,
+        "under_pressure": true,
+        "related_events": [
+          "34f2a9b6-5741-424f-8b7b-738c837846d3"
+        ],
+        "clearance": {
+          "head": true,
+          "body_part": {
+            "id": 37,
+            "name": "Head"
+          }
+        }
+      },
+      {
+        "id": "7524b042-3bb0-4aa6-8937-5d824c8df98c",
+        "index": 1079,
+        "period": 1,
+        "timestamp": "00:27:46.364",
+        "minute": 27,
+        "second": 46,
+        "type": {
+          "id": 30,
+          "name": "Pass"
+        },
+        "possession": 40,
+        "possession_team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "play_pattern": {
+          "id": 4,
+          "name": "From Throw In"
+        },
+        "team": {
+          "id": 942,
+          "name": "Scotland"
+        },
+        "player": {
+          "id": 3655,
+          "name": "Andrew Robertson"
+        },
+        "position": {
+          "id": 8,
+          "name": "Left Wing Back"
+        },
+        "location": [
+          90.5,
+          0.1
+        ],
+        "duration": 0.720896,
+        "related_events": [
+          "08b72700-5da7-4ac9-a51d-3645cc38d310"
+        ],
+        "pass": {
+          "recipient": {
+            "id": 10534,
+            "name": "Callum McGregor"
+          },
+          "length": 6.8007355,
+          "angle": 1.9157985,
+          "height": {
+            "id": 2,
+            "name": "Low Pass"
+          },
+          "end_location": [
+            88.2,
+            6.5
+          ],
+          "type": {
+            "id": 67,
+            "name": "Throw-in"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+central_exit_visible,n,r1_joined_n,short_pct,medium_pct,direct_pct,retention_pct,chosen_central_endpoint_pct,retention_measure,chosen_central_measure
+0,1141,1124,24.978089395267308,12.445223488168274,62.57668711656442,62.010676156583635,20.245398773006134,frozen accepted R1 on exact UUID joins only,provider endpoint geometry; no receiver identity claim
+1,3690,3678,57.15447154471545,15.582655826558264,27.262872628726285,82.30016313213703,34.47154471544715,frozen accepted R1 on exact UUID joins only,provider endpoint geometry; no receiver identity claim

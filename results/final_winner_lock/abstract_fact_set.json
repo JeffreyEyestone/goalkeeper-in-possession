@@ -1,0 +1,7 @@
+{
+  "F1": "45,974 OOF goalkeeper distributions across 722 matches and five cohorts.",
+  "F2": "Independent failure asymmetry: C/V is 1.40–1.90 across independently refit cohorts; full loss-branch burden is approximately 2.40–2.90× origin value.",
+  "F3": "True LOCO xR discrimination is approximately AUC 0.645–0.710, with material absolute probability shifts.",
+  "F4": "Intended geometry improves retention estimation on the target-identifiable selected sample; intended targets are outcome-dependently observed.",
+  "F5": "xR is more stable as a downstream ex-ante predictor; failure pricing improves the one-sided formulation in some settings; action-specific C does not clearly beat simpler failure penalties."
+}

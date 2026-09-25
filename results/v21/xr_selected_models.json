@@ -1,0 +1,12 @@
+{
+  "TF": {
+    "family": "logistic",
+    "selection": "lowest 4-fold match-grouped training Brier; no test/external selection",
+    "calibration": "isotonic"
+  },
+  "TA": {
+    "family": "logistic",
+    "selection": "lowest 4-fold match-grouped training Brier; no test/external selection",
+    "calibration": "isotonic"
+  }
+}

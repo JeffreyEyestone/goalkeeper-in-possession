@@ -1,0 +1,13 @@
+case_file,event_id,short_candidate_lanes_drawn,solid_clear_lanes,dashed_blocked_lanes,central_short_exits_highlighted,visible_polygon_drawn,file_bytes
+central_noncentral_direct_001f36d5-65a3-4a1b-8fb5-fc48dbf14a90.png,001f36d5-65a3-4a1b-8fb5-fc48dbf14a90,5,3,2,3,True,98241
+central_noncentral_direct_006eb36a-ca33-4eed-a8c4-56499a04253f.png,006eb36a-ca33-4eed-a8c4-56499a04253f,3,3,0,2,True,100630
+central_noncentral_direct_00bc9abb-f048-4e27-8300-5b26aff0902a.png,00bc9abb-f048-4e27-8300-5b26aff0902a,2,2,0,1,True,93225
+central_short_0029898d-2311-4643-bcc4-6bc1b01ee81b.png,0029898d-2311-4643-bcc4-6bc1b01ee81b,4,4,0,1,True,87006
+central_short_00745a51-14a0-4756-ba49-a28b6a42d8b2.png,00745a51-14a0-4756-ba49-a28b6a42d8b2,5,4,1,2,True,96835
+central_short_0095979b-369c-42dc-85ee-aace2fe66e6c.png,0095979b-369c-42dc-85ee-aace2fe66e6c,3,3,0,3,True,86401
+pressure_direct_001f36d5-65a3-4a1b-8fb5-fc48dbf14a90.png,001f36d5-65a3-4a1b-8fb5-fc48dbf14a90,5,3,2,3,True,98241
+pressure_direct_010b7c14-e6b8-4f55-8f76-d5106d4c596b.png,010b7c14-e6b8-4f55-8f76-d5106d4c596b,1,0,1,0,True,88174
+pressure_direct_0218d183-5bf3-42b4-a381-f30d47fe3492.png,0218d183-5bf3-42b4-a381-f30d47fe3492,3,3,0,1,True,91974
+pressure_short_00745a51-14a0-4756-ba49-a28b6a42d8b2.png,00745a51-14a0-4756-ba49-a28b6a42d8b2,5,4,1,2,True,96835
+pressure_short_013f681b-f086-41e4-b561-c24a9b1d6c94.png,013f681b-f086-41e4-b561-c24a9b1d6c94,0,0,0,0,True,78987
+pressure_short_01b0c543-366e-4595-b682-ae0988735860.png,01b0c543-366e-4595-b682-ae0988735860,3,3,0,2,True,85643

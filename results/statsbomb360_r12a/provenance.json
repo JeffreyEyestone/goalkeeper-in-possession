@@ -1,0 +1,13 @@
+{
+  "inputs_sha256": {
+    "results/statsbomb360/distribution_option_summary.parquet": "8976575e24e77a7838ab934bf50d0ad9e308f56680f58cbcedaf25c626327ef1",
+    "results/statsbomb360/option_candidates.parquet": "41880dd654b62ce790cf126abf39c3abe0f27a77b69d2b5f299c81daac9a4598",
+    "results/statsbomb360/coverage_selection_audit.csv": "6e02c1a1e6399d7e0cd81a3c720a45141d3cd7dede099f38e9b98250c54d34e4",
+    "results/winner_gate13/oof_action_values.parquet": "93c2ef575efe9592581aa866730b3df52665994b92d12076e035c5dbec4c6ccc",
+    "results/winner_gate13/CANONICAL_LOCK.json": "2f01615fa3cbb723d4363c88af142cac0e3bbb521c86e7fa80e36a8e4108a628"
+  },
+  "source_commit": "8799ab4cd236178a07372918e30ce450b54792d6",
+  "seed": 20260923,
+  "bootstrap_draws": 5000,
+  "data_origin": "already generated R1.2 tables and frozen WG1.3 OOF only"
+}

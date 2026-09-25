@@ -1,0 +1,202 @@
+[
+  {
+    "feature": "origin_x",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "origin_y",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "origin_pressure",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "goal_kick",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "time_minutes",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "second_half",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "score_difference",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "prior-score accumulation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "body_part",
+    "estimands": [
+      "TF",
+      "TA"
+    ],
+    "timestamp": "release / observable action family",
+    "leakage_status": "allowed_with_annotation_caveat",
+    "derivation": "current action annotation",
+    "missingness_by_cohort": {
+      "PL1516": 0.0,
+      "T2024": 0.0,
+      "WC2018": 0.0,
+      "WC2022": 0.0,
+      "WSL2021": 0.0
+    }
+  },
+  {
+    "feature": "target_x",
+    "estimands": [
+      "TA"
+    ],
+    "timestamp": "retrospective intent annotation",
+    "leakage_status": "secondary_only; selected sample and collection precision caveat",
+    "derivation": "unique same-team, same-period UUID-linked intended receipt; never endpoint fallback",
+    "missingness_by_cohort": {
+      "PL1516": 0.16492829204693613,
+      "T2024": 0.08788159111933395,
+      "WC2018": 0.0918401057152296,
+      "WC2022": 0.11384836163597226,
+      "WSL2021": 0.09755642603991793
+    }
+  },
+  {
+    "feature": "target_y",
+    "estimands": [
+      "TA"
+    ],
+    "timestamp": "retrospective intent annotation",
+    "leakage_status": "secondary_only; selected sample and collection precision caveat",
+    "derivation": "unique same-team, same-period UUID-linked intended receipt; never endpoint fallback",
+    "missingness_by_cohort": {
+      "PL1516": 0.16492829204693613,
+      "T2024": 0.08788159111933395,
+      "WC2018": 0.0918401057152296,
+      "WC2022": 0.11384836163597226,
+      "WSL2021": 0.09755642603991793
+    }
+  },
+  {
+    "feature": "target_distance_m",
+    "estimands": [
+      "TA"
+    ],
+    "timestamp": "retrospective intent annotation",
+    "leakage_status": "secondary_only; selected sample and collection precision caveat",
+    "derivation": "unique same-team, same-period UUID-linked intended receipt; never endpoint fallback",
+    "missingness_by_cohort": {
+      "PL1516": 0.16492829204693613,
+      "T2024": 0.08788159111933395,
+      "WC2018": 0.0918401057152296,
+      "WC2022": 0.11384836163597226,
+      "WSL2021": 0.09755642603991793
+    }
+  },
+  {
+    "feature": "target_angle",
+    "estimands": [
+      "TA"
+    ],
+    "timestamp": "retrospective intent annotation",
+    "leakage_status": "secondary_only; selected sample and collection precision caveat",
+    "derivation": "unique same-team, same-period UUID-linked intended receipt; never endpoint fallback",
+    "missingness_by_cohort": {
+      "PL1516": 0.16492829204693613,
+      "T2024": 0.08788159111933395,
+      "WC2018": 0.0918401057152296,
+      "WC2022": 0.11384836163597226,
+      "WSL2021": 0.09755642603991793
+    }
+  }
+]

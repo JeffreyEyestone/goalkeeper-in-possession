@@ -1,0 +1,598 @@
+cohort,keeper,team,goal_kick,pressure,zone_share_identifiable,shares_sum_to_one
+PL1516,Adam Federici,AFC Bournemouth,False,FREE,1.0,True
+PL1516,Adam Federici,AFC Bournemouth,False,PRESSURED,1.0,True
+PL1516,Adam Federici,AFC Bournemouth,True,FREE,1.0,True
+PL1516,Adrián San Miguel del Castillo,West Ham United,False,FREE,1.0,True
+PL1516,Adrián San Miguel del Castillo,West Ham United,False,PRESSURED,1.0,True
+PL1516,Adrián San Miguel del Castillo,West Ham United,True,FREE,1.0,True
+PL1516,Alex McCarthy,Crystal Palace,False,FREE,1.0,True
+PL1516,Alex McCarthy,Crystal Palace,False,PRESSURED,1.0,True
+PL1516,Alex McCarthy,Crystal Palace,True,FREE,1.0,True
+PL1516,Artur Boruc,AFC Bournemouth,False,FREE,1.0,True
+PL1516,Artur Boruc,AFC Bournemouth,False,PRESSURED,1.0,True
+PL1516,Artur Boruc,AFC Bournemouth,True,FREE,1.0,True
+PL1516,Asmir Begović,Chelsea,False,FREE,1.0,True
+PL1516,Asmir Begović,Chelsea,False,PRESSURED,1.0,True
+PL1516,Asmir Begović,Chelsea,True,FREE,1.0,True
+PL1516,Ben Foster,West Bromwich Albion,False,FREE,1.0,True
+PL1516,Ben Foster,West Bromwich Albion,False,PRESSURED,1.0,True
+PL1516,Ben Foster,West Bromwich Albion,True,FREE,1.0,True
+PL1516,Bradley Guzan,Aston Villa,False,FREE,1.0,True
+PL1516,Bradley Guzan,Aston Villa,False,PRESSURED,1.0,True
+PL1516,Bradley Guzan,Aston Villa,True,FREE,1.0,True
+PL1516,Carl Jenkinson,West Ham United,False,FREE,1.0,True
+PL1516,Carl Jenkinson,West Ham United,True,FREE,1.0,True
+PL1516,Costel Fane Pantilimon,Sunderland,False,FREE,1.0,True
+PL1516,Costel Fane Pantilimon,Sunderland,False,PRESSURED,1.0,True
+PL1516,Costel Fane Pantilimon,Sunderland,True,FREE,1.0,True
+PL1516,Danny Ward,Liverpool,False,FREE,1.0,True
+PL1516,Danny Ward,Liverpool,True,FREE,1.0,True
+PL1516,Darren Randolph,West Ham United,False,FREE,1.0,True
+PL1516,Darren Randolph,West Ham United,False,PRESSURED,1.0,True
+PL1516,Darren Randolph,West Ham United,True,FREE,1.0,True
+PL1516,David Ospina Ramírez,Arsenal,False,FREE,1.0,True
+PL1516,David Ospina Ramírez,Arsenal,False,PRESSURED,1.0,True
+PL1516,David Ospina Ramírez,Arsenal,True,FREE,1.0,True
+PL1516,David de Gea Quintana,Manchester United,False,FREE,1.0,True
+PL1516,David de Gea Quintana,Manchester United,False,PRESSURED,1.0,True
+PL1516,David de Gea Quintana,Manchester United,True,FREE,1.0,True
+PL1516,Declan Rudd,Norwich City,False,FREE,1.0,True
+PL1516,Declan Rudd,Norwich City,False,PRESSURED,1.0,True
+PL1516,Declan Rudd,Norwich City,True,FREE,1.0,True
+PL1516,Fraser Forster,Southampton,False,FREE,1.0,True
+PL1516,Fraser Forster,Southampton,False,PRESSURED,1.0,True
+PL1516,Fraser Forster,Southampton,True,FREE,1.0,True
+PL1516,Giedrius Arlauskis,Watford,False,FREE,1.0,True
+PL1516,Giedrius Arlauskis,Watford,False,PRESSURED,1.0,True
+PL1516,Glyn Oliver Myhill,West Bromwich Albion,False,FREE,1.0,True
+PL1516,Glyn Oliver Myhill,West Bromwich Albion,False,PRESSURED,1.0,True
+PL1516,Glyn Oliver Myhill,West Bromwich Albion,True,FREE,1.0,True
+PL1516,Heurelho da Silva Gomes,Watford,False,FREE,1.0,True
+PL1516,Heurelho da Silva Gomes,Watford,False,PRESSURED,1.0,True
+PL1516,Heurelho da Silva Gomes,Watford,True,FREE,1.0,True
+PL1516,Hugo Lloris,Tottenham Hotspur,False,FREE,1.0,True
+PL1516,Hugo Lloris,Tottenham Hotspur,False,PRESSURED,1.0,True
+PL1516,Hugo Lloris,Tottenham Hotspur,True,FREE,1.0,True
+PL1516,Jack Butland,Stoke City,False,FREE,1.0,True
+PL1516,Jack Butland,Stoke City,False,PRESSURED,1.0,True
+PL1516,Jack Butland,Stoke City,True,FREE,1.0,True
+PL1516,Jakob Haugaard,Stoke City,False,FREE,1.0,True
+PL1516,Jakob Haugaard,Stoke City,False,PRESSURED,1.0,True
+PL1516,Jakob Haugaard,Stoke City,True,FREE,1.0,True
+PL1516,Joe Hart,Manchester City,False,FREE,1.0,True
+PL1516,Joe Hart,Manchester City,False,PRESSURED,1.0,True
+PL1516,Joe Hart,Manchester City,True,FREE,1.0,True
+PL1516,Joel Robles Blázquez,Everton,False,FREE,1.0,True
+PL1516,Joel Robles Blázquez,Everton,False,PRESSURED,1.0,True
+PL1516,Joel Robles Blázquez,Everton,True,FREE,0.9999999999999999,True
+PL1516,John Ruddy,Norwich City,False,FREE,1.0,True
+PL1516,John Ruddy,Norwich City,False,PRESSURED,1.0,True
+PL1516,John Ruddy,Norwich City,True,FREE,1.0,True
+PL1516,Jordan Pickford,Sunderland,False,FREE,1.0,True
+PL1516,Jordan Pickford,Sunderland,False,PRESSURED,1.0,True
+PL1516,Jordan Pickford,Sunderland,True,FREE,1.0,True
+PL1516,Julián Speroni,Crystal Palace,False,FREE,1.0,True
+PL1516,Julián Speroni,Crystal Palace,False,PRESSURED,1.0,True
+PL1516,Julián Speroni,Crystal Palace,True,FREE,1.0,True
+PL1516,Karl Darlow,Newcastle United,False,FREE,1.0,True
+PL1516,Karl Darlow,Newcastle United,False,PRESSURED,1.0,True
+PL1516,Karl Darlow,Newcastle United,True,FREE,1.0,True
+PL1516,Kasper Schmeichel,Leicester City,False,FREE,1.0,True
+PL1516,Kasper Schmeichel,Leicester City,False,PRESSURED,1.0,True
+PL1516,Kasper Schmeichel,Leicester City,True,FREE,1.0,True
+PL1516,Kelvin Davis,Southampton,False,FREE,1.0,True
+PL1516,Kelvin Davis,Southampton,False,PRESSURED,1.0,True
+PL1516,Kelvin Davis,Southampton,True,FREE,1.0,True
+PL1516,Kristoffer Nordfeldt,Swansea City,False,FREE,1.0,True
+PL1516,Kristoffer Nordfeldt,Swansea City,False,PRESSURED,1.0,True
+PL1516,Kristoffer Nordfeldt,Swansea City,True,FREE,1.0,True
+PL1516,Maarten Stekelenburg,Southampton,False,FREE,1.0,True
+PL1516,Maarten Stekelenburg,Southampton,False,PRESSURED,1.0,True
+PL1516,Maarten Stekelenburg,Southampton,True,FREE,1.0,True
+PL1516,Mark Bunn,Aston Villa,False,FREE,1.0,True
+PL1516,Mark Bunn,Aston Villa,False,PRESSURED,1.0,True
+PL1516,Mark Bunn,Aston Villa,True,FREE,1.0,True
+PL1516,Michel Vorm,Tottenham Hotspur,False,FREE,1.0,True
+PL1516,Michel Vorm,Tottenham Hotspur,False,PRESSURED,1.0,True
+PL1516,Michel Vorm,Tottenham Hotspur,True,FREE,1.0,True
+PL1516,Paulo Dino Gazzaniga,Southampton,False,FREE,1.0,True
+PL1516,Paulo Dino Gazzaniga,Southampton,False,PRESSURED,1.0,True
+PL1516,Paulo Dino Gazzaniga,Southampton,True,FREE,0.9999999999999999,True
+PL1516,Petr Čech,Arsenal,False,FREE,1.0,True
+PL1516,Petr Čech,Arsenal,False,PRESSURED,1.0,True
+PL1516,Petr Čech,Arsenal,True,FREE,1.0,True
+PL1516,Rob Elliot,Newcastle United,False,FREE,1.0,True
+PL1516,Rob Elliot,Newcastle United,False,PRESSURED,1.0,True
+PL1516,Rob Elliot,Newcastle United,True,FREE,1.0,True
+PL1516,Ryan Allsop,AFC Bournemouth,False,FREE,1.0,True
+PL1516,Ryan Allsop,AFC Bournemouth,True,FREE,1.0,True
+PL1516,Sergio Germán Romero,Manchester United,False,FREE,1.0,True
+PL1516,Sergio Germán Romero,Manchester United,False,PRESSURED,1.0,True
+PL1516,Sergio Germán Romero,Manchester United,True,FREE,1.0,True
+PL1516,Shay Given,Stoke City,False,FREE,1.0,True
+PL1516,Shay Given,Stoke City,False,PRESSURED,1.0,True
+PL1516,Shay Given,Stoke City,True,FREE,1.0,True
+PL1516,Simon Mignolet,Liverpool,False,FREE,1.0,True
+PL1516,Simon Mignolet,Liverpool,False,PRESSURED,1.0,True
+PL1516,Simon Mignolet,Liverpool,True,FREE,1.0,True
+PL1516,Thibaut Courtois,Chelsea,False,FREE,1.0,True
+PL1516,Thibaut Courtois,Chelsea,False,PRESSURED,1.0,True
+PL1516,Thibaut Courtois,Chelsea,True,FREE,1.0,True
+PL1516,Tim Howard,Everton,False,FREE,1.0,True
+PL1516,Tim Howard,Everton,False,PRESSURED,1.0,True
+PL1516,Tim Howard,Everton,True,FREE,1.0,True
+PL1516,Timothy Michael Krul,Newcastle United,False,FREE,1.0,True
+PL1516,Timothy Michael Krul,Newcastle United,False,PRESSURED,1.0,True
+PL1516,Timothy Michael Krul,Newcastle United,True,FREE,1.0,True
+PL1516,Vito Mannone,Sunderland,False,FREE,1.0,True
+PL1516,Vito Mannone,Sunderland,False,PRESSURED,1.0,True
+PL1516,Vito Mannone,Sunderland,True,FREE,1.0,True
+PL1516,Wayne Hennessey,Crystal Palace,False,FREE,1.0,True
+PL1516,Wayne Hennessey,Crystal Palace,False,PRESSURED,1.0,True
+PL1516,Wayne Hennessey,Crystal Palace,True,FREE,1.0,True
+PL1516,Wilfredo Daniel Caballero,Manchester City,False,FREE,1.0,True
+PL1516,Wilfredo Daniel Caballero,Manchester City,False,PRESSURED,1.0,True
+PL1516,Wilfredo Daniel Caballero,Manchester City,True,FREE,1.0,True
+PL1516,Ádám Bogdán,Liverpool,False,FREE,1.0,True
+PL1516,Ádám Bogdán,Liverpool,False,PRESSURED,1.0,True
+PL1516,Ádám Bogdán,Liverpool,True,FREE,1.0,True
+PL1516,Łukasz Fabiański,Swansea City,False,FREE,1.0,True
+PL1516,Łukasz Fabiański,Swansea City,False,PRESSURED,1.0,True
+PL1516,Łukasz Fabiański,Swansea City,True,FREE,1.0,True
+T2024,Alexander Domínguez Carabalí,Ecuador,False,FREE,1.0,True
+T2024,Alexander Domínguez Carabalí,Ecuador,False,PRESSURED,1.0,True
+T2024,Alexander Domínguez Carabalí,Ecuador,True,FREE,1.0,True
+T2024,Alisson Ramsés Becker,Brazil,False,FREE,1.0,True
+T2024,Alisson Ramsés Becker,Brazil,False,PRESSURED,1.0,True
+T2024,Alisson Ramsés Becker,Brazil,True,FREE,1.0,True
+T2024,Altay Bayındır,Turkey,False,FREE,1.0,True
+T2024,Altay Bayındır,Turkey,False,PRESSURED,1.0,True
+T2024,Altay Bayındır,Turkey,True,FREE,1.0,True
+T2024,Anatolii Trubin,Ukraine,False,FREE,1.0,True
+T2024,Anatolii Trubin,Ukraine,False,PRESSURED,1.0,True
+T2024,Anatolii Trubin,Ukraine,True,FREE,1.0,True
+T2024,Andriy Lunin,Ukraine,False,FREE,1.0,True
+T2024,Andriy Lunin,Ukraine,False,PRESSURED,1.0,True
+T2024,Andriy Lunin,Ukraine,True,FREE,1.0,True
+T2024,Angus Gunn,Scotland,False,FREE,1.0,True
+T2024,Angus Gunn,Scotland,False,PRESSURED,1.0,True
+T2024,Angus Gunn,Scotland,True,FREE,1.0,True
+T2024,Bart Verbruggen,Netherlands,False,FREE,1.0,True
+T2024,Bart Verbruggen,Netherlands,False,PRESSURED,1.0,True
+T2024,Bart Verbruggen,Netherlands,True,FREE,1.0,True
+T2024,Camilo Andrés Vargas Gil,Colombia,False,FREE,1.0,True
+T2024,Camilo Andrés Vargas Gil,Colombia,False,PRESSURED,1.0,True
+T2024,Camilo Andrés Vargas Gil,Colombia,True,FREE,1.0,True
+T2024,Claudio Andrés Bravo Muñoz,Chile,False,FREE,1.0,True
+T2024,Claudio Andrés Bravo Muñoz,Chile,False,PRESSURED,1.0,True
+T2024,Claudio Andrés Bravo Muñoz,Chile,True,FREE,1.0,True
+T2024,Damián Emiliano Martínez,Argentina,False,FREE,1.0,True
+T2024,Damián Emiliano Martínez,Argentina,False,PRESSURED,1.0,True
+T2024,Damián Emiliano Martínez,Argentina,True,FREE,1.0,True
+T2024,David Raya Martin,Spain,False,FREE,1.0,True
+T2024,David Raya Martin,Spain,False,PRESSURED,1.0,True
+T2024,David Raya Martin,Spain,True,FREE,1.0,True
+T2024,Dayne Tristan St. Clair,Canada,False,FREE,1.0,True
+T2024,Dayne Tristan St. Clair,Canada,False,PRESSURED,1.0,True
+T2024,Dayne Tristan St. Clair,Canada,True,FREE,1.0,True
+T2024,Diogo Meireles Costa,Portugal,False,FREE,1.0,True
+T2024,Diogo Meireles Costa,Portugal,False,PRESSURED,1.0,True
+T2024,Diogo Meireles Costa,Portugal,True,FREE,1.0,True
+T2024,Dominik Livaković,Croatia,False,FREE,1.0,True
+T2024,Dominik Livaković,Croatia,False,PRESSURED,1.0,True
+T2024,Dominik Livaković,Croatia,True,FREE,1.0,True
+T2024,Ethan Horvath,United States,False,FREE,1.0,True
+T2024,Ethan Horvath,United States,False,PRESSURED,1.0,True
+T2024,Ethan Horvath,United States,True,FREE,1.0,True
+T2024,Fehmi Mert Günok,Turkey,False,FREE,1.0,True
+T2024,Fehmi Mert Günok,Turkey,False,PRESSURED,1.0,True
+T2024,Fehmi Mert Günok,Turkey,True,FREE,1.0,True
+T2024,Florin Constantin Niţă,Romania,False,FREE,1.0,True
+T2024,Florin Constantin Niţă,Romania,False,PRESSURED,1.0,True
+T2024,Florin Constantin Niţă,Romania,True,FREE,1.0,True
+T2024,Gabriel Arias Arroyo,Chile,False,FREE,1.0,True
+T2024,Gabriel Arias Arroyo,Chile,False,PRESSURED,1.0,True
+T2024,Gabriel Arias Arroyo,Chile,True,FREE,1.0,True
+T2024,Gianluigi Donnarumma,Italy,False,FREE,1.0,True
+T2024,Gianluigi Donnarumma,Italy,False,PRESSURED,1.0,True
+T2024,Gianluigi Donnarumma,Italy,True,FREE,1.0,True
+T2024,Giorgi Mamardashvili,Georgia,False,FREE,1.0,True
+T2024,Giorgi Mamardashvili,Georgia,False,PRESSURED,1.0,True
+T2024,Giorgi Mamardashvili,Georgia,True,FREE,1.0,True
+T2024,Guillermo Viscarra Bruckner,Bolivia,False,FREE,1.0,True
+T2024,Guillermo Viscarra Bruckner,Bolivia,False,PRESSURED,1.0,True
+T2024,Guillermo Viscarra Bruckner,Bolivia,True,FREE,1.0,True
+T2024,Jahmali Waite,Jamaica,False,FREE,1.0,True
+T2024,Jahmali Waite,Jamaica,False,PRESSURED,1.0,True
+T2024,Jahmali Waite,Jamaica,True,FREE,1.0,True
+T2024,Jan Oblak,Slovenia,False,FREE,1.0,True
+T2024,Jan Oblak,Slovenia,False,PRESSURED,1.0,True
+T2024,Jan Oblak,Slovenia,True,FREE,1.0,True
+T2024,Jindřich Staněk,Czech Republic,False,FREE,1.0,True
+T2024,Jindřich Staněk,Czech Republic,False,PRESSURED,1.0,True
+T2024,Jindřich Staněk,Czech Republic,True,FREE,1.0,True
+T2024,Jordan Pickford,England,False,FREE,1.0,True
+T2024,Jordan Pickford,England,False,PRESSURED,1.0,True
+T2024,Jordan Pickford,England,True,FREE,1.0,True
+T2024,Julio José González Vela-Alvizu,Mexico,False,FREE,1.0,True
+T2024,Julio José González Vela-Alvizu,Mexico,False,PRESSURED,1.0,True
+T2024,Julio José González Vela-Alvizu,Mexico,True,FREE,1.0,True
+T2024,Kasper Schmeichel,Denmark,False,FREE,1.0,True
+T2024,Kasper Schmeichel,Denmark,False,PRESSURED,1.0,True
+T2024,Kasper Schmeichel,Denmark,True,FREE,1.0,True
+T2024,Koen Casteels,Belgium,False,FREE,1.0,True
+T2024,Koen Casteels,Belgium,False,PRESSURED,1.0,True
+T2024,Koen Casteels,Belgium,True,FREE,1.0,True
+T2024,Manuel Neuer,Germany,False,FREE,1.0,True
+T2024,Manuel Neuer,Germany,False,PRESSURED,1.0,True
+T2024,Manuel Neuer,Germany,True,FREE,1.0,True
+T2024,Martin Dúbravka,Slovakia,False,FREE,1.0,True
+T2024,Martin Dúbravka,Slovakia,False,PRESSURED,1.0,True
+T2024,Martin Dúbravka,Slovakia,True,FREE,1.0,True
+T2024,Matthew Charles Turner,United States,False,FREE,1.0,True
+T2024,Matthew Charles Turner,United States,False,PRESSURED,1.0,True
+T2024,Matthew Charles Turner,United States,True,FREE,1.0,True
+T2024,Matěj Kovář,Czech Republic,False,FREE,1.0,True
+T2024,Matěj Kovář,Czech Republic,True,FREE,1.0,True
+T2024,Maxime Crépeau,Canada,False,FREE,1.0,True
+T2024,Maxime Crépeau,Canada,False,PRESSURED,1.0,True
+T2024,Maxime Crépeau,Canada,True,FREE,1.0,True
+T2024,Mike Maignan,France,False,FREE,1.0,True
+T2024,Mike Maignan,France,False,PRESSURED,1.0,True
+T2024,Mike Maignan,France,True,FREE,1.0,True
+T2024,Orlando Mosquera,Panama,False,FREE,1.0,True
+T2024,Orlando Mosquera,Panama,False,PRESSURED,0.9999999999999999,True
+T2024,Orlando Mosquera,Panama,True,FREE,1.0,True
+T2024,Patrick Gilmar Sequeira Mejías,Costa Rica,False,FREE,1.0,True
+T2024,Patrick Gilmar Sequeira Mejías,Costa Rica,False,PRESSURED,1.0,True
+T2024,Patrick Gilmar Sequeira Mejías,Costa Rica,True,FREE,1.0,True
+T2024,Patrick Pentz,Austria,False,FREE,1.0,True
+T2024,Patrick Pentz,Austria,False,PRESSURED,1.0,True
+T2024,Patrick Pentz,Austria,True,FREE,1.0,True
+T2024,Pedro David Gallese Quiróz,Peru,False,FREE,1.0,True
+T2024,Pedro David Gallese Quiróz,Peru,False,PRESSURED,1.0,True
+T2024,Pedro David Gallese Quiróz,Peru,True,FREE,1.0,True
+T2024,Predrag Rajković,Serbia,False,FREE,1.0,True
+T2024,Predrag Rajković,Serbia,False,PRESSURED,1.0,True
+T2024,Predrag Rajković,Serbia,True,FREE,1.0,True
+T2024,Péter Gulácsi,Hungary,False,FREE,1.0,True
+T2024,Péter Gulácsi,Hungary,False,PRESSURED,1.0,True
+T2024,Péter Gulácsi,Hungary,True,FREE,1.0,True
+T2024,Rafael Enrique Romo Pérez,Venezuela,False,FREE,1.0,True
+T2024,Rafael Enrique Romo Pérez,Venezuela,False,PRESSURED,1.0,True
+T2024,Rafael Enrique Romo Pérez,Venezuela,True,FREE,1.0,True
+T2024,Rodrigo Mario Morínigo Acosta,Paraguay,False,FREE,1.0,True
+T2024,Rodrigo Mario Morínigo Acosta,Paraguay,False,PRESSURED,1.0,True
+T2024,Rodrigo Mario Morínigo Acosta,Paraguay,True,FREE,1.0,True
+T2024,Sergio Rochet Álvarez,Uruguay,False,FREE,1.0,True
+T2024,Sergio Rochet Álvarez,Uruguay,False,PRESSURED,1.0,True
+T2024,Sergio Rochet Álvarez,Uruguay,True,FREE,1.0,True
+T2024,Thomas Strakosha,Albania,False,FREE,1.0,True
+T2024,Thomas Strakosha,Albania,False,PRESSURED,1.0,True
+T2024,Thomas Strakosha,Albania,True,FREE,1.0,True
+T2024,Unai Simón Mendibil,Spain,False,FREE,1.0,True
+T2024,Unai Simón Mendibil,Spain,False,PRESSURED,1.0,True
+T2024,Unai Simón Mendibil,Spain,True,FREE,1.0,True
+T2024,Wojciech Szczęsny,Poland,False,FREE,0.9999999999999999,True
+T2024,Wojciech Szczęsny,Poland,False,PRESSURED,1.0,True
+T2024,Wojciech Szczęsny,Poland,True,FREE,1.0,True
+T2024,Yann Sommer,Switzerland,False,FREE,1.0,True
+T2024,Yann Sommer,Switzerland,False,PRESSURED,1.0,True
+T2024,Yann Sommer,Switzerland,True,FREE,1.0,True
+T2024,Łukasz Skorupski,Poland,False,FREE,1.0,True
+T2024,Łukasz Skorupski,Poland,False,PRESSURED,1.0,True
+T2024,Łukasz Skorupski,Poland,True,FREE,1.0,True
+WC2018,Abdullah Ibrahim Al Maiouf,Saudi Arabia,False,FREE,1.0,True
+WC2018,Abdullah Ibrahim Al Maiouf,Saudi Arabia,False,PRESSURED,1.0,True
+WC2018,Abdullah Ibrahim Al Maiouf,Saudi Arabia,True,FREE,1.0,True
+WC2018,Alireza Safar Beiranvand,Iran,False,FREE,1.0,True
+WC2018,Alireza Safar Beiranvand,Iran,False,PRESSURED,1.0,True
+WC2018,Alireza Safar Beiranvand,Iran,True,FREE,1.0,True
+WC2018,Alisson Ramsés Becker,Brazil,False,FREE,1.0,True
+WC2018,Alisson Ramsés Becker,Brazil,False,PRESSURED,1.0,True
+WC2018,Alisson Ramsés Becker,Brazil,True,FREE,1.0,True
+WC2018,Aymen Mathlouthi,Tunisia,False,FREE,1.0,True
+WC2018,Aymen Mathlouthi,Tunisia,False,PRESSURED,1.0,True
+WC2018,Aymen Mathlouthi,Tunisia,True,FREE,1.0,True
+WC2018,Danijel Subašić,Croatia,False,FREE,1.0,True
+WC2018,Danijel Subašić,Croatia,False,PRESSURED,1.0,True
+WC2018,Danijel Subašić,Croatia,True,FREE,1.0,True
+WC2018,David Ospina Ramírez,Colombia,False,FREE,1.0,True
+WC2018,David Ospina Ramírez,Colombia,False,PRESSURED,1.0,True
+WC2018,David Ospina Ramírez,Colombia,True,FREE,1.0,True
+WC2018,David de Gea Quintana,Spain,False,FREE,1.0,True
+WC2018,David de Gea Quintana,Spain,False,PRESSURED,1.0,True
+WC2018,David de Gea Quintana,Spain,True,FREE,1.0,True
+WC2018,Eiji Kawashima,Japan,False,FREE,1.0,True
+WC2018,Eiji Kawashima,Japan,False,PRESSURED,1.0,True
+WC2018,Eiji Kawashima,Japan,True,FREE,0.9999999999999999,True
+WC2018,Essam Kamal Tawfik El Hadary,Egypt,False,FREE,1.0,True
+WC2018,Essam Kamal Tawfik El Hadary,Egypt,True,FREE,1.0,True
+WC2018,Farouk Ben Mustapha,Tunisia,False,FREE,1.0,True
+WC2018,Farouk Ben Mustapha,Tunisia,False,PRESSURED,1.0,True
+WC2018,Farouk Ben Mustapha,Tunisia,True,FREE,1.0,True
+WC2018,Francis Odinaka Uzoho,Nigeria,False,FREE,1.0,True
+WC2018,Francis Odinaka Uzoho,Nigeria,False,PRESSURED,1.0,True
+WC2018,Francis Odinaka Uzoho,Nigeria,True,FREE,1.0,True
+WC2018,Francisco Guillermo Ochoa Magaña,Mexico,False,FREE,1.0,True
+WC2018,Francisco Guillermo Ochoa Magaña,Mexico,False,PRESSURED,1.0,True
+WC2018,Francisco Guillermo Ochoa Magaña,Mexico,True,FREE,1.0,True
+WC2018,Franco Armani,Argentina,False,FREE,1.0,True
+WC2018,Franco Armani,Argentina,False,PRESSURED,1.0,True
+WC2018,Franco Armani,Argentina,True,FREE,1.0,True
+WC2018,Hannes Þór Halldórsson,Iceland,False,FREE,1.0,True
+WC2018,Hannes Þór Halldórsson,Iceland,False,PRESSURED,1.0,True
+WC2018,Hannes Þór Halldórsson,Iceland,True,FREE,1.0,True
+WC2018,Hugo Lloris,France,False,FREE,1.0,True
+WC2018,Hugo Lloris,France,False,PRESSURED,1.0,True
+WC2018,Hugo Lloris,France,True,FREE,1.0,True
+WC2018,Hyeon-Woo Jo,South Korea,False,FREE,1.0,True
+WC2018,Hyeon-Woo Jo,South Korea,False,PRESSURED,1.0,True
+WC2018,Hyeon-Woo Jo,South Korea,True,FREE,1.0,True
+WC2018,Igor Akinfeev,Russia,False,FREE,1.0,True
+WC2018,Igor Akinfeev,Russia,False,PRESSURED,1.0,True
+WC2018,Igor Akinfeev,Russia,True,FREE,1.0,True
+WC2018,Jaime Manuel Penedo Cano,Panama,False,FREE,1.0,True
+WC2018,Jaime Manuel Penedo Cano,Panama,False,PRESSURED,1.0,True
+WC2018,Jaime Manuel Penedo Cano,Panama,True,FREE,1.0,True
+WC2018,Jordan Pickford,England,False,FREE,1.0,True
+WC2018,Jordan Pickford,England,False,PRESSURED,1.0,True
+WC2018,Jordan Pickford,England,True,FREE,1.0,True
+WC2018,Kasper Schmeichel,Denmark,False,FREE,1.0,True
+WC2018,Kasper Schmeichel,Denmark,False,PRESSURED,1.0,True
+WC2018,Kasper Schmeichel,Denmark,True,FREE,1.0,True
+WC2018,Keylor Navas Gamboa,Costa Rica,False,FREE,1.0,True
+WC2018,Keylor Navas Gamboa,Costa Rica,False,PRESSURED,0.9999999999999999,True
+WC2018,Keylor Navas Gamboa,Costa Rica,True,FREE,1.0,True
+WC2018,Khadim N'Diaye,Senegal,False,FREE,1.0,True
+WC2018,Khadim N'Diaye,Senegal,False,PRESSURED,1.0,True
+WC2018,Khadim N'Diaye,Senegal,True,FREE,1.0,True
+WC2018,Lovre Kalinić,Croatia,False,FREE,1.0,True
+WC2018,Lovre Kalinić,Croatia,False,PRESSURED,1.0,True
+WC2018,Lovre Kalinić,Croatia,True,FREE,1.0,True
+WC2018,Manuel Neuer,Germany,False,FREE,1.0,True
+WC2018,Manuel Neuer,Germany,False,PRESSURED,1.0,True
+WC2018,Manuel Neuer,Germany,True,FREE,1.0,True
+WC2018,Mathew Ryan,Australia,False,FREE,1.0,True
+WC2018,Mathew Ryan,Australia,False,PRESSURED,1.0,True
+WC2018,Mathew Ryan,Australia,True,FREE,1.0,True
+WC2018,Mohamed El Sayed Mohamed El Shenawy Gomaa,Egypt,False,FREE,1.0,True
+WC2018,Mohamed El Sayed Mohamed El Shenawy Gomaa,Egypt,False,PRESSURED,1.0,True
+WC2018,Mohamed El Sayed Mohamed El Shenawy Gomaa,Egypt,True,FREE,1.0,True
+WC2018,Mohammed Khalil Al Owais,Saudi Arabia,False,FREE,1.0,True
+WC2018,Mohammed Khalil Al Owais,Saudi Arabia,False,PRESSURED,1.0,True
+WC2018,Mohammed Khalil Al Owais,Saudi Arabia,True,FREE,1.0,True
+WC2018,Mouez Hassen,Tunisia,False,FREE,1.0,True
+WC2018,Mouez Hassen,Tunisia,True,FREE,1.0,True
+WC2018,Munir Mohand Mohamedi,Morocco,False,FREE,1.0,True
+WC2018,Munir Mohand Mohamedi,Morocco,False,PRESSURED,1.0,True
+WC2018,Munir Mohand Mohamedi,Morocco,True,FREE,1.0,True
+WC2018,Néstor Fernando Muslera Micol,Uruguay,False,FREE,1.0,True
+WC2018,Néstor Fernando Muslera Micol,Uruguay,False,PRESSURED,1.0,True
+WC2018,Néstor Fernando Muslera Micol,Uruguay,True,FREE,1.0,True
+WC2018,Pedro David Gallese Quiróz,Peru,False,FREE,1.0,True
+WC2018,Pedro David Gallese Quiróz,Peru,False,PRESSURED,1.0,True
+WC2018,Pedro David Gallese Quiróz,Peru,True,FREE,1.0,True
+WC2018,Robin Olsen,Sweden,False,FREE,1.0,True
+WC2018,Robin Olsen,Sweden,False,PRESSURED,1.0,True
+WC2018,Robin Olsen,Sweden,True,FREE,1.0,True
+WC2018,Rui Pedro dos Santos Patrício,Portugal,False,FREE,1.0,True
+WC2018,Rui Pedro dos Santos Patrício,Portugal,False,PRESSURED,1.0,True
+WC2018,Rui Pedro dos Santos Patrício,Portugal,True,FREE,1.0,True
+WC2018,Steve Mandanda,France,False,FREE,1.0,True
+WC2018,Steve Mandanda,France,False,PRESSURED,1.0,True
+WC2018,Steve Mandanda,France,True,FREE,1.0,True
+WC2018,Thibaut Courtois,Belgium,False,FREE,1.0,True
+WC2018,Thibaut Courtois,Belgium,False,PRESSURED,1.0,True
+WC2018,Thibaut Courtois,Belgium,True,FREE,1.0,True
+WC2018,Vladimir Stojković,Serbia,False,FREE,1.0,True
+WC2018,Vladimir Stojković,Serbia,False,PRESSURED,1.0,True
+WC2018,Vladimir Stojković,Serbia,True,FREE,1.0,True
+WC2018,Wilfredo Daniel Caballero,Argentina,False,FREE,1.0,True
+WC2018,Wilfredo Daniel Caballero,Argentina,False,PRESSURED,1.0,True
+WC2018,Wilfredo Daniel Caballero,Argentina,True,FREE,1.0,True
+WC2018,Wojciech Szczęsny,Poland,False,FREE,1.0,True
+WC2018,Wojciech Szczęsny,Poland,False,PRESSURED,1.0,True
+WC2018,Wojciech Szczęsny,Poland,True,FREE,1.0,True
+WC2018,Yann Sommer,Switzerland,False,FREE,1.0,True
+WC2018,Yann Sommer,Switzerland,False,PRESSURED,0.9999999999999999,True
+WC2018,Yann Sommer,Switzerland,True,FREE,1.0,True
+WC2018,Yasser Abdullah Al Mosailem,Saudi Arabia,False,FREE,1.0,True
+WC2018,Yasser Abdullah Al Mosailem,Saudi Arabia,True,FREE,1.0,True
+WC2018,Łukasz Fabiański,Poland,False,FREE,1.0,True
+WC2018,Łukasz Fabiański,Poland,False,PRESSURED,1.0,True
+WC2018,Łukasz Fabiański,Poland,True,FREE,1.0,True
+WC2022,Alireza Safar Beiranvand,Iran,False,FREE,1.0,True
+WC2022,Alireza Safar Beiranvand,Iran,False,PRESSURED,1.0,True
+WC2022,Alireza Safar Beiranvand,Iran,True,FREE,1.0,True
+WC2022,Alisson Ramsés Becker,Brazil,False,FREE,1.0,True
+WC2022,Alisson Ramsés Becker,Brazil,False,PRESSURED,1.0,True
+WC2022,Alisson Ramsés Becker,Brazil,True,FREE,1.0,True
+WC2022,Andries Noppert,Netherlands,False,FREE,1.0,True
+WC2022,Andries Noppert,Netherlands,False,PRESSURED,1.0,True
+WC2022,Andries Noppert,Netherlands,True,FREE,1.0,True
+WC2022,André Onana,Cameroon,False,FREE,1.0,True
+WC2022,André Onana,Cameroon,False,PRESSURED,1.0,True
+WC2022,André Onana,Cameroon,True,FREE,1.0,True
+WC2022,Aymen Dahmen,Tunisia,False,FREE,1.0,True
+WC2022,Aymen Dahmen,Tunisia,False,PRESSURED,1.0,True
+WC2022,Aymen Dahmen,Tunisia,True,FREE,1.0,True
+WC2022,Damián Emiliano Martínez,Argentina,False,FREE,1.0,True
+WC2022,Damián Emiliano Martínez,Argentina,False,PRESSURED,1.0,True
+WC2022,Damián Emiliano Martínez,Argentina,True,FREE,1.0,True
+WC2022,Daniel Ward,Wales,False,FREE,1.0,True
+WC2022,Daniel Ward,Wales,False,PRESSURED,1.0,True
+WC2022,Daniel Ward,Wales,True,FREE,1.0,True
+WC2022,Devis Rogers Epassy Mboka,Cameroon,False,FREE,1.0,True
+WC2022,Devis Rogers Epassy Mboka,Cameroon,False,PRESSURED,1.0,True
+WC2022,Devis Rogers Epassy Mboka,Cameroon,True,FREE,1.0,True
+WC2022,Diogo Meireles Costa,Portugal,False,FREE,1.0,True
+WC2022,Diogo Meireles Costa,Portugal,False,PRESSURED,1.0,True
+WC2022,Diogo Meireles Costa,Portugal,True,FREE,1.0,True
+WC2022,Dominik Livaković,Croatia,False,FREE,1.0,True
+WC2022,Dominik Livaković,Croatia,False,PRESSURED,1.0,True
+WC2022,Dominik Livaković,Croatia,True,FREE,1.0,True
+WC2022,Ederson Santana de Moraes,Brazil,False,FREE,1.0,True
+WC2022,Ederson Santana de Moraes,Brazil,False,PRESSURED,1.0,True
+WC2022,Ederson Santana de Moraes,Brazil,True,FREE,1.0,True
+WC2022,Edouard Mendy,Senegal,False,FREE,1.0,True
+WC2022,Edouard Mendy,Senegal,False,PRESSURED,1.0,True
+WC2022,Edouard Mendy,Senegal,True,FREE,1.0,True
+WC2022,Francisco Guillermo Ochoa Magaña,Mexico,False,FREE,1.0,True
+WC2022,Francisco Guillermo Ochoa Magaña,Mexico,False,PRESSURED,1.0,True
+WC2022,Francisco Guillermo Ochoa Magaña,Mexico,True,FREE,1.0,True
+WC2022,Gregor Kobel,Switzerland,False,FREE,1.0,True
+WC2022,Gregor Kobel,Switzerland,False,PRESSURED,1.0,True
+WC2022,Gregor Kobel,Switzerland,True,FREE,1.0,True
+WC2022,Hernán Ismael Galíndez,Ecuador,False,FREE,1.0,True
+WC2022,Hernán Ismael Galíndez,Ecuador,False,PRESSURED,1.0,True
+WC2022,Hernán Ismael Galíndez,Ecuador,True,FREE,1.0,True
+WC2022,Hugo Lloris,France,False,FREE,1.0,True
+WC2022,Hugo Lloris,France,False,PRESSURED,1.0,True
+WC2022,Hugo Lloris,France,True,FREE,1.0,True
+WC2022,Jordan Pickford,England,False,FREE,1.0,True
+WC2022,Jordan Pickford,England,False,PRESSURED,1.0,True
+WC2022,Jordan Pickford,England,True,FREE,1.0,True
+WC2022,Kasper Schmeichel,Denmark,False,FREE,1.0,True
+WC2022,Kasper Schmeichel,Denmark,False,PRESSURED,1.0,True
+WC2022,Kasper Schmeichel,Denmark,True,FREE,1.0,True
+WC2022,Keylor Navas Gamboa,Costa Rica,False,FREE,1.0,True
+WC2022,Keylor Navas Gamboa,Costa Rica,False,PRESSURED,1.0,True
+WC2022,Keylor Navas Gamboa,Costa Rica,True,FREE,1.0,True
+WC2022,Lawrence Ati-Zigi,Ghana,False,FREE,1.0,True
+WC2022,Lawrence Ati-Zigi,Ghana,False,PRESSURED,1.0,True
+WC2022,Lawrence Ati-Zigi,Ghana,True,FREE,1.0,True
+WC2022,Manuel Neuer,Germany,False,FREE,1.0,True
+WC2022,Manuel Neuer,Germany,False,PRESSURED,0.9999999999999999,True
+WC2022,Manuel Neuer,Germany,True,FREE,1.0,True
+WC2022,Mathew Ryan,Australia,False,FREE,1.0,True
+WC2022,Mathew Ryan,Australia,False,PRESSURED,1.0,True
+WC2022,Mathew Ryan,Australia,True,FREE,1.0,True
+WC2022,Matthew Charles Turner,United States,False,FREE,1.0,True
+WC2022,Matthew Charles Turner,United States,False,PRESSURED,1.0,True
+WC2022,Matthew Charles Turner,United States,True,FREE,1.0,True
+WC2022,Meshaal Aissa Barsham,Qatar,False,FREE,1.0,True
+WC2022,Meshaal Aissa Barsham,Qatar,False,PRESSURED,1.0,True
+WC2022,Meshaal Aissa Barsham,Qatar,True,FREE,1.0,True
+WC2022,Milan Borjan,Canada,False,FREE,1.0,True
+WC2022,Milan Borjan,Canada,False,PRESSURED,1.0,True
+WC2022,Milan Borjan,Canada,True,FREE,1.0,True
+WC2022,Mohammed Khalil Al Owais,Saudi Arabia,False,FREE,1.0,True
+WC2022,Mohammed Khalil Al Owais,Saudi Arabia,False,PRESSURED,1.0,True
+WC2022,Mohammed Khalil Al Owais,Saudi Arabia,True,FREE,1.0,True
+WC2022,Munir Mohand Mohamedi,Morocco,False,FREE,1.0,True
+WC2022,Munir Mohand Mohamedi,Morocco,True,FREE,1.0,True
+WC2022,Saad Abdullah Al Sheeb,Qatar,False,FREE,1.0,True
+WC2022,Saad Abdullah Al Sheeb,Qatar,False,PRESSURED,1.0,True
+WC2022,Saad Abdullah Al Sheeb,Qatar,True,FREE,1.0,True
+WC2022,Sergio Rochet Álvarez,Uruguay,False,FREE,1.0,True
+WC2022,Sergio Rochet Álvarez,Uruguay,False,PRESSURED,1.0,True
+WC2022,Sergio Rochet Álvarez,Uruguay,True,FREE,1.0,True
+WC2022,Seung-Gyu Kim,South Korea,False,FREE,1.0,True
+WC2022,Seung-Gyu Kim,South Korea,False,PRESSURED,1.0,True
+WC2022,Seung-Gyu Kim,South Korea,True,FREE,1.0,True
+WC2022,Seyed Hossein Hosseini,Iran,False,FREE,1.0,True
+WC2022,Seyed Hossein Hosseini,Iran,False,PRESSURED,1.0,True
+WC2022,Seyed Hossein Hosseini,Iran,True,FREE,1.0,True
+WC2022,Shūichi Gonda,Japan,False,FREE,1.0,True
+WC2022,Shūichi Gonda,Japan,False,PRESSURED,1.0,True
+WC2022,Shūichi Gonda,Japan,True,FREE,1.0,True
+WC2022,Steve Mandanda,France,False,FREE,1.0,True
+WC2022,Steve Mandanda,France,True,FREE,1.0,True
+WC2022,Thibaut Courtois,Belgium,False,FREE,1.0,True
+WC2022,Thibaut Courtois,Belgium,False,PRESSURED,1.0,True
+WC2022,Thibaut Courtois,Belgium,True,FREE,1.0,True
+WC2022,Unai Simón Mendibil,Spain,False,FREE,1.0,True
+WC2022,Unai Simón Mendibil,Spain,False,PRESSURED,1.0,True
+WC2022,Unai Simón Mendibil,Spain,True,FREE,1.0,True
+WC2022,Vanja Milinković Savić,Serbia,False,FREE,1.0,True
+WC2022,Vanja Milinković Savić,Serbia,False,PRESSURED,1.0,True
+WC2022,Vanja Milinković Savić,Serbia,True,FREE,1.0,True
+WC2022,Wayne Hennessey,Wales,False,FREE,1.0,True
+WC2022,Wayne Hennessey,Wales,False,PRESSURED,1.0,True
+WC2022,Wayne Hennessey,Wales,True,FREE,1.0,True
+WC2022,Weverton Pereira da Silva,Brazil,False,FREE,1.0,True
+WC2022,Weverton Pereira da Silva,Brazil,True,FREE,1.0,True
+WC2022,Wojciech Szczęsny,Poland,False,FREE,1.0,True
+WC2022,Wojciech Szczęsny,Poland,False,PRESSURED,1.0,True
+WC2022,Wojciech Szczęsny,Poland,True,FREE,1.0,True
+WC2022,Yann Sommer,Switzerland,False,FREE,1.0,True
+WC2022,Yann Sommer,Switzerland,False,PRESSURED,1.0,True
+WC2022,Yann Sommer,Switzerland,True,FREE,1.0,True
+WC2022,Yassine Bounou,Morocco,False,FREE,1.0,True
+WC2022,Yassine Bounou,Morocco,False,PRESSURED,1.0,True
+WC2022,Yassine Bounou,Morocco,True,FREE,1.0,True
+WSL2021,Alexandra MacIver,Everton LFC,False,FREE,1.0,True
+WSL2021,Alexandra MacIver,Everton LFC,False,PRESSURED,1.0,True
+WSL2021,Alexandra MacIver,Everton LFC,True,FREE,1.0,True
+WSL2021,Ann-Katrin Berger,Chelsea FCW,False,FREE,1.0,True
+WSL2021,Ann-Katrin Berger,Chelsea FCW,False,PRESSURED,1.0,True
+WSL2021,Ann-Katrin Berger,Chelsea FCW,True,FREE,0.9999999999999999,True
+WSL2021,Aurora Watten Mikalsen,Tottenham Hotspur Women,False,FREE,1.0,True
+WSL2021,Aurora Watten Mikalsen,Tottenham Hotspur Women,False,PRESSURED,1.0,True
+WSL2021,Aurora Watten Mikalsen,Tottenham Hotspur Women,True,FREE,1.0,True
+WSL2021,Benedicte Håland,Bristol City WFC,False,FREE,1.0,True
+WSL2021,Benedicte Håland,Bristol City WFC,False,PRESSURED,1.0,True
+WSL2021,Benedicte Håland,Bristol City WFC,True,FREE,1.0,True
+WSL2021,Carly Mitchell Telford,Chelsea FCW,False,FREE,1.0,True
+WSL2021,Carly Mitchell Telford,Chelsea FCW,False,PRESSURED,1.0,True
+WSL2021,Carly Mitchell Telford,Chelsea FCW,True,FREE,1.0,True
+WSL2021,Cecilie Fiskerstrand,Brighton & Hove Albion WFC,False,FREE,1.0,True
+WSL2021,Cecilie Fiskerstrand,Brighton & Hove Albion WFC,False,PRESSURED,1.0,True
+WSL2021,Cecilie Fiskerstrand,Brighton & Hove Albion WFC,True,FREE,1.0,True
+WSL2021,Courtney Brosnan,West Ham United LFC,False,FREE,1.0,True
+WSL2021,Courtney Brosnan,West Ham United LFC,False,PRESSURED,1.0,True
+WSL2021,Courtney Brosnan,West Ham United LFC,True,FREE,1.0,True
+WSL2021,Ellie Roebuck,Manchester City WFC,False,FREE,1.0,True
+WSL2021,Ellie Roebuck,Manchester City WFC,False,PRESSURED,1.0,True
+WSL2021,Ellie Roebuck,Manchester City WFC,True,FREE,1.0,True
+WSL2021,Grace Moloney,Reading WFC,False,FREE,1.0,True
+WSL2021,Grace Moloney,Reading WFC,False,PRESSURED,1.0,True
+WSL2021,Grace Moloney,Reading WFC,True,FREE,1.0,True
+WSL2021,Hannah Hampton,Birmingham City WFC,False,FREE,1.0,True
+WSL2021,Hannah Hampton,Birmingham City WFC,False,PRESSURED,1.0,True
+WSL2021,Hannah Hampton,Birmingham City WFC,True,FREE,1.0,True
+WSL2021,Karen Bardsley,Manchester City WFC,False,FREE,1.0,True
+WSL2021,Karen Bardsley,Manchester City WFC,True,FREE,1.0,True
+WSL2021,Karima Benameur,Manchester City WFC,False,FREE,1.0,True
+WSL2021,Karima Benameur,Manchester City WFC,False,PRESSURED,1.0,True
+WSL2021,Karima Benameur,Manchester City WFC,True,FREE,1.0,True
+WSL2021,Lisa Weiß,Aston Villa,False,FREE,1.0,True
+WSL2021,Lisa Weiß,Aston Villa,False,PRESSURED,1.0,True
+WSL2021,Lisa Weiß,Aston Villa,True,FREE,1.0,True
+WSL2021,Lisa Weiß,Aston Villa W,False,FREE,1.0,True
+WSL2021,Lisa Weiß,Aston Villa W,False,PRESSURED,1.0,True
+WSL2021,Lisa Weiß,Aston Villa W,True,FREE,1.0,True
+WSL2021,Lydia Grace Yilkari Williams,Arsenal WFC,False,FREE,1.0,True
+WSL2021,Lydia Grace Yilkari Williams,Arsenal WFC,False,PRESSURED,1.0,True
+WSL2021,Lydia Grace Yilkari Williams,Arsenal WFC,True,FREE,1.0,True
+WSL2021,Mackenzie Arnold,West Ham United LFC,False,FREE,1.0,True
+WSL2021,Mackenzie Arnold,West Ham United LFC,False,PRESSURED,1.0,True
+WSL2021,Mackenzie Arnold,West Ham United LFC,True,FREE,1.0,True
+WSL2021,Manuela Zinsberger,Arsenal WFC,False,FREE,1.0,True
+WSL2021,Manuela Zinsberger,Arsenal WFC,False,PRESSURED,1.0,True
+WSL2021,Manuela Zinsberger,Arsenal WFC,True,FREE,1.0,True
+WSL2021,Mary Alexandra Earps,Manchester United,False,FREE,1.0,True
+WSL2021,Mary Alexandra Earps,Manchester United,False,PRESSURED,1.0,True
+WSL2021,Mary Alexandra Earps,Manchester United,True,FREE,1.0,True
+WSL2021,Mary Alexandra Earps,Manchester United W,False,FREE,1.0,True
+WSL2021,Mary Alexandra Earps,Manchester United W,False,PRESSURED,1.0,True
+WSL2021,Mary Alexandra Earps,Manchester United W,True,FREE,1.0,True
+WSL2021,Megan Walsh,Brighton & Hove Albion WFC,False,FREE,1.0,True
+WSL2021,Megan Walsh,Brighton & Hove Albion WFC,False,PRESSURED,1.0,True
+WSL2021,Megan Walsh,Brighton & Hove Albion WFC,True,FREE,1.0,True
+WSL2021,Rebecca Leigh Spencer,Tottenham Hotspur Women,False,FREE,1.0,True
+WSL2021,Rebecca Leigh Spencer,Tottenham Hotspur Women,False,PRESSURED,1.0,True
+WSL2021,Rebecca Leigh Spencer,Tottenham Hotspur Women,True,FREE,1.0,True
+WSL2021,Sian Rogers,Aston Villa,False,FREE,1.0,True
+WSL2021,Sian Rogers,Aston Villa,False,PRESSURED,1.0,True
+WSL2021,Sian Rogers,Aston Villa,True,FREE,1.0,True
+WSL2021,Sophie Baggaley,Bristol City WFC,False,FREE,1.0,True
+WSL2021,Sophie Baggaley,Bristol City WFC,False,PRESSURED,1.0,True
+WSL2021,Sophie Baggaley,Bristol City WFC,True,FREE,1.0,True
+WSL2021,Tinja-Riikka Tellervo Korpela,Everton LFC,False,FREE,1.0,True
+WSL2021,Tinja-Riikka Tellervo Korpela,Everton LFC,False,PRESSURED,1.0,True
+WSL2021,Tinja-Riikka Tellervo Korpela,Everton LFC,True,FREE,1.0,True
+WSL2021,Zecira Musovic,Chelsea FCW,False,FREE,1.0,True
+WSL2021,Zecira Musovic,Chelsea FCW,False,PRESSURED,1.0,True
+WSL2021,Zecira Musovic,Chelsea FCW,True,FREE,1.0,True

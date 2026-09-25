@@ -1,0 +1,71 @@
+{
+  "source_commit": "8799ab4cd236178a07372918e30ce450b54792d6",
+  "input_sha256": {
+    "results/statsbomb360/distribution_option_summary.parquet": "8976575e24e77a7838ab934bf50d0ad9e308f56680f58cbcedaf25c626327ef1",
+    "results/statsbomb360/option_candidates.parquet": "41880dd654b62ce790cf126abf39c3abe0f27a77b69d2b5f299c81daac9a4598",
+    "results/winner_gate13/oof_action_values.parquet": "93c2ef575efe9592581aa866730b3df52665994b92d12076e035c5dbec4c6ccc",
+    "results/winner_gate13/CANONICAL_LOCK.json": "2f01615fa3cbb723d4363c88af142cac0e3bbb521c86e7fa80e36a8e4108a628",
+    "scripts/run_statsbomb360_r12.py": "cc81885bc671f09770c7156e4ba3deeed26648500d7bcde21b3958a3c83fec1c",
+    "results/statsbomb360/source_manifest.csv": "7dd090873e4dbce976d9ab29c4debc8b5046462760e99e175ec75b69703bf44b",
+    "results/statsbomb360_r12a/central_exit_corrected.csv": "30ca679d52fc76e36bf448955c36ffb336384cade577bb58745e2a01797dafc0",
+    "results/statsbomb360_r12a/choice_stability_by_competition.csv": "da1a8b16490f7f50f70148605d682079938768669db73864b99d08936206bd99",
+    "results/statsbomb360_r12a/choice_successful_pass_sensitivity.csv": "2b0a728fa5ac78f35650fe4137ee61ca0f0c45265f158b29c08002c9cfaf2b6e",
+    "results/statsbomb360_r12a/competition_incremental_xr.csv": "8b3f7381b38fb16917f5c9d012f4092ca1f30d2499bb415a11e133138842c8d1",
+    "results/statsbomb360_r12a/corridor_sensitivity.csv": "a1e34da2be0588b6c3dfa7d0e3e1752eaf8628583d978668b3303ea0fd4d2890",
+    "results/statsbomb360_r12a/coverage_selection_final.csv": "420a1d96e41544e2e4f4cf64f7fc0910fda4698ceb6b1a042e2b4ec8033e1f95",
+    "results/statsbomb360_r12a/diagram_audit.csv": "43d929a08059c3dd1da2f1a9c7f9b6b50e1df7155d9c9ada95f890c62d45df80",
+    "results/statsbomb360_r12a/incremental_bootstrap.parquet": "952dc94263b38391d5ae33b9a3e7492dd7b343c758bbd7b058194e6247ac418a",
+    "results/statsbomb360_r12a/incremental_oof_predictions.parquet": "fcf19f88d2dd5bed0c7516f3b099f8d7bea91b81bfd410f60da78428a15f351e",
+    "results/statsbomb360_r12a/pooled_incremental_xr.csv": "f37e267f94f96ba634d8f4204a2a949d0466828df08a5531f0579c0b5d5b0987",
+    "results/statsbomb360_r12a/promotion_decision.json": "d744c40ecb34058648dd3d8387a36ad57bd1b7877b69ae6f51d8c23daea977e6",
+    "results/statsbomb360_r12a/provenance.json": "fe62b2dcf9a3fd72b01a96ed0c21ae9e145f99e9736cbcae7e134b008ffba263",
+    "results/statsbomb360_r12a/xr_option_calibration_by_competition.csv": "ecce74adc006900bd038f6288ea7d6a92abb01d20474dd4a8dd57ac5b609a1d7"
+  },
+  "frozen_action_counts": {
+    "r12_distributions": 4831,
+    "exact_xr_uuid_joins": 4802,
+    "matches": 115
+  },
+  "models": {
+    "M0": [
+      "frozen_rho_no_fit"
+    ],
+    "M1_pooled": [
+      "logit_rho",
+      "competition"
+    ],
+    "M1_competition": [
+      "logit_rho"
+    ],
+    "M2_pooled": [
+      "logit_rho",
+      "under_pressure",
+      "goal_kick",
+      "competition"
+    ],
+    "M2_competition": [
+      "logit_rho",
+      "under_pressure",
+      "goal_kick"
+    ],
+    "M3_increment": [
+      "lane_clear_short_options",
+      "central_short_exit"
+    ],
+    "M4_increment": [
+      "receiver_option_count"
+    ],
+    "M2C_increment": [
+      "visible_area_fraction_of_pitch"
+    ],
+    "component_ablations": [
+      "lane_clear_short_options",
+      "central_short_exit"
+    ]
+  },
+  "primary_attribution": "M3_minus_M2",
+  "camera_robustness": "M3C_minus_M2C",
+  "folds": "5-fold GroupKFold by match, identical assignment within scope",
+  "bootstrap": "5000 paired match-cluster draws; retain match multiplicity; tie-aware AUC",
+  "option_definitions": "unchanged from R1.2"
+}

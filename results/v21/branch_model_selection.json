@@ -1,0 +1,42 @@
+{
+  "TF_1": {
+    "family": "shrunk",
+    "training_n": 1186,
+    "training_matches": 38,
+    "groupcv_rmse": {
+      "shrunk": 0.005152166607141434,
+      "boosted": 0.005171157154217097
+    },
+    "rule": "prefer shrinkage unless boosted RMSE improves by at least 5%"
+  },
+  "TF_0": {
+    "family": "shrunk",
+    "training_n": 621,
+    "training_matches": 38,
+    "groupcv_rmse": {
+      "shrunk": 0.005281965161027452,
+      "boosted": 0.00535316189377115
+    },
+    "rule": "prefer shrinkage unless boosted RMSE improves by at least 5%"
+  },
+  "TA_1": {
+    "family": "boosted",
+    "training_n": 1177,
+    "training_matches": 38,
+    "groupcv_rmse": {
+      "shrunk": 0.00503236038360715,
+      "boosted": 0.003833316727694182
+    },
+    "rule": "prefer shrinkage unless boosted RMSE improves by at least 5%"
+  },
+  "TA_0": {
+    "family": "shrunk",
+    "training_n": 457,
+    "training_matches": 38,
+    "groupcv_rmse": {
+      "shrunk": 0.0049091379654446305,
+      "boosted": 0.0046962991667266266
+    },
+    "rule": "prefer shrinkage unless boosted RMSE improves by at least 5%"
+  }
+}

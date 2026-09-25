@@ -1,0 +1,12 @@
+{
+  "created_from_commit": "41fe05d",
+  "source_sha256": {
+    "scripts/fit_values.py": "efadb11af5db40c403192e9f5fb57e2c344ff05dfe76b8e4ca937031e768d6e9",
+    "scripts/fit_xr.py": "ffcf5398ec84f95bfb832f140ce948ad643356b473dca5697d1d983b38f8c0ca",
+    "src/gkpossession/failure_cost.py": "5722b5dc33eb1b022d3d902ed90c068b32380ed41f82457fdd70fecafaad56f4",
+    "src/gkpossession/features.py": "cd482d5e4422e228af2d41ebd146c7778738988b2ff0068439ccbd87117c893b",
+    "src/gkpossession/surfaces.py": "1ff3d19ea4e78edbee638a7cddea5f3d91f7016f89043ff55134f5d1af994ab7",
+    "src/gkpossession/xr.py": "bf46e4ccefb582e7b75f6453afa5718a5ec9196375c8f684584794f4bf1b8e9b",
+    "src/gkpossession/xtgk.py": "e1e4c4d1067652efcfb1698b3fa0813f00cdc804f89e7393a5f0b08d4fdd035b"
+  }
+}

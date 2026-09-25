@@ -1,0 +1,51 @@
+from pathlib import Path
+import csv,json
+ROOT=Path(__file__).resolve().parents[1]
+coverage=list(csv.DictReader((ROOT/'results/target_coverage_by_cohort.csv').open()))
+rows=list(csv.DictReader((ROOT/'results/semantics_by_outcome.csv').open()))
+lines=['# Historical data semantics audit — target stop resolved by approved TF/TA amendment','',
+'All 722 frozen matches were acquired from StatsBomb revision `4b73468fc5b0f1950f9f66fada70ad3a4f9327cb`. This is a census of goalkeeper-position Pass events, not a fitted v2.1 result. Raw event checksums are in `results/raw_data_checksums.json`; source provenance is in `results/audit_provenance.json`. The 5 cohorts contain 46,345 raw goalkeeper Pass events (43,318 outside WC2018). No new retention labels, rankings or models were fit.',
+'', '## Original scientific review gate (now resolved for TF)' , '',
+'**Section 27 is triggered:** PL1516 lacks a defensible linked receipt target for 3,795/23,010 actions (16.49%), above the 15% threshold. Among non-completed passes, 37.90% lack this candidate target. Excluding injury clearances and Unknown outcomes still leaves 3,506/22,537 (15.56%) missing. Excluding additional offsides would not solve it. This must not be fixed by outcome-based sample trimming merely to pass the gate.',
+'', '## 1–4. Endpoint, recipient and intended target', '',
+'The official v1.1 schema describes pass.end_location as where the pass ended (p. 26), recipient as the receiving or intended receiving player where clear (p. 26), and Ball Receipt* as a receipt or intended receipt location (p. 15). Thus a failed endpoint is not an intended target. Related receipt locations are the best available intent annotation, but are retrospectively collected and are only candidates until the selection/measurement policy is approved.',
+'',
+'The candidate rule requires exactly one related-event UUID resolving to a Ball Receipt*, with matching team, period and pass.recipient ID and a location. It never falls back to the endpoint. This is deliberately different from the old match/recipient-name/index-window join. Related receipt existence and this stricter rule give identical coverage in these data; looser linkage does not recover the missing cases.',
+'', '| Cohort | GK passes | Candidate targets | Missing | Missing % | Non-completed missing % |', '|---|---:|---:|---:|---:|---:|']
+for r in coverage:lines.append(f"| {r['cohort']} | {r['eligible_gk_passes']} | {r['candidate_targets']} | {r['missing_targets']} | {float(r['missing_fraction']):.2%} | {float(r['failure_missing_fraction']):.2%} |")
+lines+=['','Non-completed here includes Incomplete, Out, Unknown, Pass Offside and Injury Clearance; it is a provider outcome stratum, not an R1/R2/R3 failure label. Missingness is outcome-dependent and likely related to pass difficulty. Complete-case analysis would disproportionately remove failures; inverse-probability weighting alone cannot identify unobserved intended locations without assumptions.',
+'', '## 5. Missingness by outcome', '', '| Cohort | Outcome | n | Recipient present | Linked receipt | Endpoint present |', '|---|---|---:|---:|---:|---:|']
+for r in rows:lines.append(f"| {r['cohort']} | {r['outcome']} | {r['n']} | {r['recipient_present']} | {r['candidate_target']} | {r['end_present']} |")
+lines+=['','## 6. Length, angle and unit audit','',
+'For every one of the 46,345 passes, pass.length matches the Euclidean origin-to-realized-endpoint distance within 0.01 provider units, and pass.angle matches atan2 of that displacement within 0.001 radians. These fields are therefore endpoint-derived, not independent intended-action measurements. On non-completed passes with candidate receipts, many receipt coordinates differ substantially from the endpoint (counts in semantics_by_outcome.csv). Do not use original length/angle/forward/lateral deltas as primary ex-ante features.',
+'',
+'The schema labels pass.length in **yards**, not meters. Recomputing the stored historical goal-kick means with native bins reproduces the reported rounded values across WC2022, T2024 and WSL2021. Converting length by 0.9144 before binning changes those values; for the WSL historical xT-GK output, <25 m becomes -0.002854 (n=974), versus -0.002786 (n=941) at 40–60 m. The historical native-unit means were -0.003021 and -0.003045. These are arithmetic audits of unreproduced, potentially leaky historical values; they neither validate nor falsify v2.1 H6. They do invalidate treating the old band labels as established meter-based evidence. Actual pitch dimensions are not supplied; document normalized-provider geometry separately from measured physical distance.',
+'', '## 7. Schema comparability', '',
+'Pinned match metadata confirms every frozen ID and exact competition-season membership. WC2018 uses data_version 1.0.2 (64 matches); all other cohorts use 1.1.0. The official v1.1 revision expands pressure/possession logic. Common JSON field names do not establish measurement equivalence across versions. results/schema_by_cohort.json records all observed pass-field keys and goalkeeper event-type counts; results/cohort_metadata_audit.json records version counts and source hashes. This is an additional calibration/era caveat, not proof that comparison is impossible.',
+'', '## 8–9. Pressure and post-action information','',
+'In all five cohorts, under_pressure is present only as true in the GK Pass rows. Absence is the provider encoding of no annotated pressure, not evidence that physical pressure was measured and absent. Cross-cohort rates cannot distinguish tactical differences from collection/derivation changes. Receipt pressure describes receiving context after the kick and is forbidden in a primary ex-ante scorer. It is also strongly outcome-conditioned in these data: incomplete receipts rarely carry pressure, whereas completed receipts sometimes do.',
+'', '| Cohort | Pass under_pressure true | Rate | Keeper Arm passes |', '|---|---:|---:|---:|']
+for cr in coverage:
+ rr=[r for r in rows if r['cohort']==cr['cohort']];n=sum(int(r['n']) for r in rr);p=sum(int(r['under_pressure_true']) for r in rr);arm=sum(int(r['keeper_arm']) for r in rr)
+ lines.append(f"| {cr['cohort']} | {p} | {p/n:.2%} | {arm} |")
+lines+=['','## 10. Identification and throws','',
+'The census uses event.type = Pass and event.position = Goalkeeper, including Keeper Arm body-part passes. The schema describes Keeper Arm as a pass from the keeper’s hands; throws do not require a separate distribution event type. The feed does not provide a general roll-versus-throw distinction here. Goal Keeper and Clearance events are separately inventoried, not silently converted to passes. This census matches the manuscript’s raw evaluation-cohort counts exactly, but the stored valued rows lose 2 WC2022, 7 T2024 and 1 WSL action. Position changes and atypical keeper clearances require an explicit later inclusion policy.',
+'', '## Inspected event examples','',
+'Full pass records, UUID-linked events and following event sequences are preserved in results/semantics_examples.json. These examples illustrate data behavior; the contested example is not yet a validated R1 label.',
+'', '| Case | Match | Pass UUID | Evidence |', '|---|---:|---|---|',
+'| Completed | 3857254 | 1eb6e917-5bc3-4035-b3c6-a5ffbb47d7d0 | Endpoint and linked receipt both [11.9,22.5]. |',
+'| Intercepted | 3857255 | 971874d1-a80d-467a-9b79-4262fc843009 | Endpoint [99.8,76.2]; intended receipt [97.9,77.2]; linked opponent Interception is in opposing orientation. |',
+'| Out | 3857254 | 28bacd4c-70a7-4b43-b83e-158fc8098eef | Endpoint [76.5,79.9]; incomplete receipt [77.2,72.0]. |',
+'| Blocked | 3857269 | ac8653f2-6823-4705-86a2-4074a3f3baa6 | Short realized endpoint [16.9,54.4], linked Block and Pressure, no intended receipt. |',
+'| Contested sequence | 3857254 | c3c23e6f-f2e8-4263-a072-199841a8cee5 | Incomplete pass, intended receipt and subsequent duel sequence; requires control-resolution adjudication. |',
+'', '## Scientific decision required', '',
+'**Recommended: approve a target-free primary estimand, retaining the target-dependent version as a secondary, explicitly selected-sample analysis.** Use origin/context/technique only for rho and model retained-branch payoff and failure consequence conditionally on exactly the same pre-action information. This changes what is estimated: expected value of the observed action family/context, not evaluation of a known chosen destination. It cannot support target-specific or intended-distance coaching prescriptions. R1/R2/R3 must still be studied and payoff congruence established before training.',
+'',
+'Alternative 2: retain the original target-dependent estimand and require additional verified target annotations/data access. This preserves the intended decision question but blocks the all-open-data five-cohort rerun until targets meet coverage and semantics criteria. No proprietary data is assumed available.',
+'',
+'Alternative 3: authorize complete-case target analysis only as the primary **restricted-population** study, explicitly waiving the 15% gate, with outcome-dependent exclusion accounting, selection sensitivity/bounds, and an all-action target-free comparator. Results would not represent all keeper distributions, and H6, execution and generalization claims would need narrower scope. Unvalidated target imputation is not a remedy: successful-pass endpoints cannot supply ground-truth missing targets for failed passes.',
+'', '## Source documentation','',
+'[StatsBomb Open Data Specification v1.1, pinned revision](https://github.com/statsbomb/open-data/blob/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/StatsBomb%20Open%20Data%20Specification%20v1.1.pdf), pp. 2, 8, 15, 26–28. A local copy and extracted text are preserved in reports/source_text.',
+'',
+'[StatsBomb xPass 360 model article](https://blogarchive.statsbomb.com/articles/soccer/xpass-360-upgrading-expected-pass-xpass-models/), Conor Sharpe, 13 August 2024: supports distinguishing endpoint from intent and warns that collection/imputation patterns can themselves leak outcomes. That commercial modeling procedure is not automatically validated for this open-data GK cohort.']
+(ROOT/'reports/DATA_SEMANTICS_AUDIT.md').write_text('\n'.join(lines)+'\n')

@@ -1,0 +1,4 @@
+scope,metric,n,matches,frozen_xr,frozen_xr_plus_360,delta_augmented_minus_frozen,ci_low,ci_high,specification,bootstrap
+ALL,AUC,4802,115,0.6419706003678691,0.7019097405586587,0.05993914019078961,0.041799967274583634,0.07784884939298704,logit(rho clipped .001-.999) + fixed 360 fields; 5 match-grouped folds,5000 paired match-cluster draws with multiplicity; tie-aware weighted AUC
+ALL,Brier,4802,115,0.16613140986256986,0.1593594011019317,-0.00677200876063816,-0.009454673372493796,-0.00406868627639789,logit(rho clipped .001-.999) + fixed 360 fields; 5 match-grouped folds,5000 paired match-cluster draws with multiplicity; tie-aware weighted AUC
+ALL,log_loss,4802,115,0.5077507765763586,0.4870317938534518,-0.020718982722906787,-0.028065402100066923,-0.01325059116894617,logit(rho clipped .001-.999) + fixed 360 fields; 5 match-grouped folds,5000 paired match-cluster draws with multiplicity; tie-aware weighted AUC

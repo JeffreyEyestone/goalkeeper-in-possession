@@ -1,0 +1,5 @@
+comparison,FULL_clearly_better_count,baseline_clearly_better_count,no_clear_difference_count,median_point_delta_Spearman,range_delta_Spearman
+B6_vs_B2_XR,0,8,12,0.00210356599452095,-0.439058 to 0.0981593
+B6_vs_B3_SUCCESS_ONLY,7,0,13,0.15318296535103526,-0.0492159 to 0.296882
+B6_vs_B4_FIXED_FAILURE,0,0,20,0.0,-0.0211127 to 0.00826125
+B6_vs_B5_COARSE_ORIGIN_FAILURE,0,0,20,-0.00133272395100065,-0.0142042 to 0.0120109

@@ -1,0 +1,10 @@
+{
+  "official_source": "https://github.com/hudl/open-data",
+  "official_commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "verified_manifest_sha256": "b843f363200a9a05dc64545a7a3c9cd55d2bf06f44d341c0dab80c9a85ce4e28",
+  "reproduction_audit_sha256": "416128617af320c102d1215423310b03d2468288c42d75915d080f132c525221",
+  "input_lock_sha256": "8a6e61351d59924654ad075a5b286beaf0e04a1980218debc32ac41c02bc7e4e",
+  "original_r12_generator_sha256": "cc81885bc671f09770c7156e4ba3deeed26648500d7bcde21b3958a3c83fec1c",
+  "raw_files_in_package": false,
+  "fresh_raw_directory": "/private/tmp/statsbomb360_r12b_fresh_20260924"
+}

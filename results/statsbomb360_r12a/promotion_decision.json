@@ -1,0 +1,20 @@
+{
+  "sample_gate": true,
+  "choice_monotone_both_competitions": true,
+  "successful_pass_choice_monotone": true,
+  "corridor_monotone_all_thresholds": true,
+  "incremental_all_metrics_improve_both_competitions": true,
+  "pooled_probability_ci_excludes_zero_improving": true,
+  "coverage_selection_disclosed": true,
+  "main_paper": true,
+  "abstract": true,
+  "n_360_actions": 4831,
+  "n_joined_actions": 4802,
+  "n_matches": 115,
+  "max_match_share": 0.015317739598426828,
+  "pooled_delta_auc": 0.05993914019078961,
+  "pooled_delta_brier": -0.00677200876063816,
+  "pooled_delta_log_loss": -0.020718982722906787,
+  "primary_corridor_m": 1.5,
+  "bootstrap_draws_per_scope": 5000
+}

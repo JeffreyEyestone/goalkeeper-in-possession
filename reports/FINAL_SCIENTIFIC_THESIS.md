@@ -1,0 +1,3 @@
+# Final Scientific Thesis
+
+Goalkeeper distribution is a two-branch decision under asymmetric loss. Retention probability is the most empirically stable ex-ante component and must be calibrated to the football environment. Independently refit models show that near-goal failure consequence exceeds the possession value surrendered in every cohort, while richer action-specific failure-cost modeling does not clearly outperform simpler risk-aware penalties in public event data. Intended destination materially improves retention estimation when it is observable, but target observation is outcome-selective.

@@ -1,0 +1,5 @@
+# Club Application: Cross-Environment Recruitment and Calibration
+
+A club should treat a goalkeeper distribution score as an environment-specific probability model, not as a universally portable absolute probability. The accepted LOCO evidence shows moderate discrimination across held-out cohorts while mean prediction gaps and calibration slopes shift between environments. A recruitment workflow should therefore assess structural ranking first, retain the zero-shot probability as a baseline, then fit local/environment calibration on representative actions before converting probabilities into downstream value or keeper rankings.
+
+For an incoming keeper, the club should report the structural xR score, the zero-shot probability, the locally calibrated probability, and the resulting value/rank change side by side. A material rank change is a calibration signal: it identifies environment shift and should trigger local validation, rather than being interpreted as causal transfer success. The intended-geometry result is applied only on the target-identifiable selected sample because intended targets are outcome-dependently observed.

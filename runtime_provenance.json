@@ -1,0 +1,11 @@
+{
+  "architecture": "arm64",
+  "python": "3.12.14",
+  "environment": "environment-wg13.yml",
+  "source_commit": "41fe05d",
+  "package_commit": "8799ab4cd236178a07372918e30ce450b54792d6",
+  "canonical_source_lock": "results/winner_gate13/CANONICAL_LOCK.json",
+  "oof_actions": 45974,
+  "cohorts": 5,
+  "outer_folds_per_cohort": 5
+}

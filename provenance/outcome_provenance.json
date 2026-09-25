@@ -1,0 +1,31 @@
+{
+  "path": "results/winner_gate11/observed_value_outcomes.parquet",
+  "included_as": "provenance/observed_value_outcomes.parquet",
+  "size_bytes": 2099342,
+  "sha256": "25f2268456135bfa88bb471cfeafbc6be7042f0bb8cbfcfacd0798ad3a503a77",
+  "row_count": 45974,
+  "columns": [
+    "event_id",
+    "match_id",
+    "cohort",
+    "Y10_NET_XG",
+    "Y30_NET_XG",
+    "YCYCLE_NET_XG",
+    "YNEXTSHOT",
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "origin_value",
+    "success_payoff",
+    "failure_cost",
+    "target_available",
+    "keeper_id",
+    "keeper",
+    "origin_x",
+    "rho_source"
+  ]
+}

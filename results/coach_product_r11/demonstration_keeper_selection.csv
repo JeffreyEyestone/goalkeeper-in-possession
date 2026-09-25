@@ -1,0 +1,9 @@
+cohort,selection_rule,keeper,team,sample_n,direct_share,pressured_n,pressure_threshold,pressured_ROE
+PL1516,high_volume_short_build,Hugo Lloris,Tottenham Hotspur,1208,36.86200378071834,84,30,0.16076320728948212
+PL1516,high_volume_direct,Kasper Schmeichel,Leicester City,1215,79.75929978118161,47,30,0.08072921488067482
+PL1516,strong_pressured_ROE_all_actions_n>=30,Petr Čech,Arsenal,1025,55.71587125416204,53,30,0.10353677408823408
+PL1516,weak_pressured_ROE_all_actions_n>=30,Joe Hart,Manchester City,843,53.898768809849514,40,30,-0.18391809744344667
+WSL2021,high_volume_short_build,Ellie Roebuck,Manchester City WFC,809,4.4529262086514,52,30,0.17775510684793755
+WSL2021,high_volume_direct,Hannah Hampton,Birmingham City WFC,855,48.82434301521438,81,30,0.022456543246783117
+WSL2021,strong_pressured_ROE_all_actions_n>=30,Grace Moloney,Reading WFC,913,21.660649819494584,60,30,0.14658154543203047
+WSL2021,weak_pressured_ROE_all_actions_n>=30,Ann-Katrin Berger,Chelsea FCW,629,20.398009950248756,57,30,-0.13327343737310324

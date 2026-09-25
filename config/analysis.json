@@ -1,0 +1,53 @@
+{
+  "specification_id": "scientific-v2.1-TF-TA-amendment-20260916",
+  "seed": 42,
+  "primary_estimand": "TF",
+  "secondary_estimand": "TA",
+  "pitch_mapping": {
+    "native": [
+      120,
+      80
+    ],
+    "standardized_meters": [
+      105,
+      68
+    ]
+  },
+  "retention_candidates": [
+    "R1",
+    "R2",
+    "R3",
+    "R15"
+  ],
+  "r1_resolution_cap_seconds": 15,
+  "bootstrap_replicates": 500,
+  "gate_A": {
+    "internal_auc_min": 0.55,
+    "prediction_sd_min": 0.025,
+    "brier_skill_min": 0.0,
+    "rule": "flag if AUC upper 95% bound is below 0.55 or predicted SD below .025; flag lack of Brier improvement if no benchmark passes"
+  },
+  "transfer_material_failure": {
+    "ece_max": 0.1,
+    "absolute_mean_gap_max": 0.1,
+    "slope_interval": [
+      0.5,
+      2.0
+    ],
+    "rule": "flag ECE or gap over threshold; flag slope only if 95% interval entirely outside interval; test against cohort-constant Brier diagnostically"
+  },
+  "gate_B": {
+    "common_sample_keeper_spearman_min": 0.5,
+    "opposite_sign_fraction_max": 0.5,
+    "rule": "review if keeper-value Spearman below .5 in two cohorts with at least 10 keepers, or substantively opposite replicated headline conclusions"
+  },
+  "kappa_primary": 1,
+  "surface_grid": [
+    16,
+    12
+  ],
+  "surface_shrinkage": 30,
+  "pressure_shrinkage": 60,
+  "primary_label": "R1",
+  "primary_label_definition": "own control or explicitly awarded restart at immediate resolution"
+}

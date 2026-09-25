@@ -1,0 +1,21 @@
+claim_id,claim,status
+C1,Two-branch decision framework,PASS
+C2,Independent near-goal failure asymmetry,PASS
+C3,Old 2.19–2.28 transported magnitude,QUALIFIED / TRANSPORTED SENSITIVITY
+C4,Full lost branch exceeds 2× origin value across five independent OOF cohort refits,PASS
+C5,Spatial asymmetry diminishes away from own goal,QUALIFIED
+C6,xR relative discrimination transports moderately,QUALIFIED
+C7,Absolute xR probability scale is environment-dependent,PASS
+C8,Local/environment calibration can alter downstream valuation/ranking,PASS
+C9,Intended geometry materially improves retention estimation on the target-identifiable selected sample,PASS
+C10,Target availability is outcome-dependent,PASS
+C11,Full xT-GK is a superior downstream outcome predictor,FAIL / NOT SUPPORTED
+C12,Failure pricing improves over success-only,QUALIFIED
+C13,Action-specific C improves fixed/coarse failure penalties,FAIL / NOT SUPPORTED
+C14,xR is the most stable tested ex-ante downstream criterion predictor,QUALIFIED
+C15,Completion is informative but insufficient,SUPPORTING
+C16,Receiver role / identity supporting result,SUPPORTING
+C17,Universal execution-skill interpretation,FAIL / NOT CENTRAL
+C18,Universal causal transfer prediction,FAIL
+C19,Old 40–60m restart result,FAIL
+C20,Style-neutral xT-GK,FAIL

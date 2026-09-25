@@ -1,0 +1,22 @@
+{
+  "source_manifest_clean": true,
+  "raw_to_derived_reproduced": true,
+  "model_m1_local_calibration_complete": true,
+  "model_m2_non360_control_complete": true,
+  "model_m3_core_360_complete": true,
+  "m3_vs_m2_pooled_all_metrics_improve": true,
+  "m3_vs_m2_wc2022_direction": true,
+  "m3_vs_m2_euro2024_direction": true,
+  "section_11c_pass": true,
+  "camera_control_pooled_improves": true,
+  "short_direct_option_result": "MAIN",
+  "frozen_xr_calibration_result": "SUPPORTING_DIAGNOSTIC",
+  "360_incremental_xr_result": "MAIN",
+  "abstract_360_claim_approved": true,
+  "n_r12_actions": 4831,
+  "n_exact_xr_actions": 4802,
+  "n_matches": 115,
+  "official_source_commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "bootstrap_draws_per_scope": 5000,
+  "primary_attribution": "M3 minus M2; only lane_clear_short_options and central_short_exit added"
+}
