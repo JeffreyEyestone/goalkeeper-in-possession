@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper and this software release."
+title: "The Goalkeeper in Possession: Visible Options, Retention Risk, and Asymmetric Turnover Cost"
+type: software
+authors:
+  - family-names: Eyestone
+    given-names: Jeffrey
+repository-code: "https://github.com/JeffreyEyestone/goalkeeper-in-possession"
+url: "https://github.com/JeffreyEyestone/goalkeeper-in-possession"
+version: "5.0"
+date-released: 2026-09-24
+license: MIT
