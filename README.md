@@ -1,10 +1,12 @@
 # The Goalkeeper in Possession
 ## Visible Options, Retention Risk, and Asymmetric Turnover Cost
 
-Open-source research package prepared for the MIT Sloan Sports Analytics Conference 2027 Soccer track.
+Public reproducibility repository for the MIT Sloan Sports Analytics Conference 2027 Soccer-track submission.
+
+**Repository:** https://github.com/JeffreyEyestone/goalkeeper-in-possession
 
 ## What the study asks
-A goalkeeper distribution is not only the pass observed after release. It is a decision made from an option set under asymmetric risk:
+Goalkeeper distribution is not only the pass observed after release. It is a decision made from an option set under asymmetric risk:
 
 1. **What visible short/central options exist?**
 2. **How likely is the selected distribution to retain possession?**
@@ -34,6 +36,26 @@ Main 360 findings:
 - Independently refit opponent consequence C/V: 1.40-1.90 across five cohorts.
 - Full lost branch (V+C)/V: 2.40-2.90.
 
+## Quick verification
+
+Recommended fast path:
+
+```bash
+git clone https://github.com/JeffreyEyestone/goalkeeper-in-possession.git
+cd goalkeeper-in-possession
+
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements-final.txt
+
+PYTHONPATH=src pytest -q
+PYTHONPATH=src python scripts/verify_final_winner_lock.py
+PYTHONPATH=src python scripts/verify_statsbomb360_r12b.py --archive
+```
+
+For the full clean-source StatsBomb 360 provenance reproduction, see `REPRODUCE_FINAL.md`.
+
 ## Repository layout
 - `src/` canonical xR/value implementation
 - `scripts/` event-data and StatsBomb 360 generators / validators
@@ -47,11 +69,14 @@ Main 360 findings:
 - `figures/` main paper and abstract figures
 - `paper/` submission-ready paper / supplement / abstract
 - `reports/` scientific audit reports
+- `provenance/` model/source lineage
 
 ## Data sources
 The underlying public data come from the official Hudl StatsBomb open-data repository. Raw provider JSON is not duplicated here; exact source URLs, pinned upstream commit, SHA256 values, and clean reproduction checks are in `results/statsbomb360_r12b/source_manifest_verified.csv` and the source download scripts.
 
 Official source: https://github.com/hudl/open-data
+
+StatsBomb's open-data terms ask published work to state StatsBomb as the data source and use the StatsBomb logo. See `DATA_SOURCES.md`.
 
 ## Reproducibility
 See `REPRODUCE_FINAL.md`.
@@ -66,3 +91,9 @@ See `REPRODUCE_FINAL.md`.
 
 ## AI-assisted research disclosure
 See `AI_USE_DISCLOSURE.md`.
+
+## Citation
+See `CITATION.cff`.
+
+## License
+Project software/code is released under the MIT License. Third-party data remain subject to their source-provider terms.
