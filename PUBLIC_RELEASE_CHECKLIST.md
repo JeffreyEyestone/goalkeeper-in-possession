@@ -14,13 +14,13 @@
 - [x] README points to the public repository URL.
 - [x] Copy/paste reproduction commands are documented.
 - [x] Final pip requirements include statsmodels.
+- [x] `CONTENTS_MANIFEST.md` refreshed after public-release documentation changes.
+- [x] `SHA256SUMS.txt` refreshed after public-release documentation changes.
 
-## Final local maintenance step
-After pulling the documentation updates in this commit, regenerate:
+## Public release status
 
-- `CONTENTS_MANIFEST.md`
-- `SHA256SUMS.txt`
+The repository is ready to cite from the Sloan submission:
 
-from the current repository working tree, commit them, and push.
+https://github.com/JeffreyEyestone/goalkeeper-in-possession
 
-Do not include `.git/` in either inventory.
+Any later research-code or result changes should be followed by a fresh manifest/checksum update before release.
