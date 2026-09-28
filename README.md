@@ -24,10 +24,15 @@ The 360 choice relationships are observational and are not interpreted as causal
 ## Repository contents
 
 ### `data/`
-Canonical processed research data and source manifests used for the reported analyses.
+Minimal source-identification and held-out evidence package:
+- exact event-study match manifests and pinned StatsBomb Open Data revision;
+- exact 360 source manifest with URLs, hashes, sizes, validation status, and pinned upstream commit;
+- match-held-out 360 model predictions and paired match-cluster bootstrap draws supporting the primary incremental-retention result.
+
+Raw third-party provider JSON is not duplicated here; it remains at the official StatsBomb Open Data repository and is identified exactly by the included manifests and source metadata.
 
 ### `results/`
-Human-readable publication evidence for the reported event-only and StatsBomb 360 findings.
+Human-readable publication evidence supporting the reported event-only, target-aware, visible-option, and failure-cost findings.
 
 ### `verify_headline_results.py`
 A dependency-free verification script for the headline numerical claims stored in the publication evidence files.
@@ -48,16 +53,14 @@ MINIMAL SLOAN REPO VERIFICATION: PASS
 
 This research uses **StatsBomb Open Data**, including event-linked StatsBomb 360 freeze frames.
 
-Raw third-party provider JSON is not duplicated in this repository. Instead:
-- the event-data source is pinned to the exact upstream revision recorded in `data/event/source_info.json`;
-- the five event-study cohort match manifests are included in `data/event/manifests/`;
-- the exact 360 source URLs, byte sizes, pinned upstream commit, JSON-validity checks, and SHA256 values are included in `data/360/source_manifest.csv`;
-- the processed research datasets used for analysis are included directly.
+Official provider repository:
 
-Official provider repository: https://github.com/hudl/open-data
+https://github.com/hudl/open-data
+
+The event-data cohorts are pinned to the upstream revision recorded in `data/event/source_info.json`. The 360 source files are identified individually in `data/360/source_manifest.csv`.
 
 StatsBomb's provider terms apply to the underlying third-party data. The MIT license in this repository applies only to original project code.
 
 ## Scope
 
-This repository intentionally contains only the material needed to support the SSAC27 submission and its reproducibility. Development history, internal research-control documents, obsolete figures/papers, coaching-product artifacts, and exploratory intermediate files are preserved in Git history rather than exposed on the submission branch.
+This repository intentionally contains only material needed to support the SSAC27 submission and verify its headline numerical results. Development history, internal research-control documents, obsolete papers/figures, coaching-product artifacts, and exploratory intermediate files are not part of this public submission repository.

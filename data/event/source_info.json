@@ -1,0 +1,14 @@
+{
+  "provider": "StatsBomb Open Data",
+  "repository": "hudl/open-data",
+  "revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "base_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data",
+  "cohorts": {
+    "PL1516": "data/event/manifests/PL1516.json",
+    "WSL2021": "data/event/manifests/WSL2021.json",
+    "WC2018": "data/event/manifests/WC2018.json",
+    "WC2022": "data/event/manifests/WC2022.json",
+    "T2024": "data/event/manifests/T2024.json"
+  },
+  "note": "Raw provider JSON is not redistributed in this repository. The processed analysis datasets used for the research are included; exact match manifests and the pinned upstream revision identify the event-data source."
+}
